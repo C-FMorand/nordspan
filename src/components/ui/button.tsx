@@ -18,8 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        financial: "bg-gradient-to-r from-financial-blue to-financial-light text-white hover:opacity-90 shadow-lg",
-        "financial-outline": "border-2 border-financial-blue text-financial-blue bg-transparent hover:bg-financial-blue hover:text-white",
+        dramatic: "bg-warm-accent text-white hover:bg-warm-accent/90 shadow-lg px-8 py-6 text-lg",
+        "dramatic-outline": "border-2 border-white text-white bg-transparent hover:bg-white hover:text-foreground px-8 py-6 text-lg",
       },
       size: {
         default: "h-10 px-4 py-2",

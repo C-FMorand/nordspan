@@ -93,7 +93,7 @@ export const AboutSection = () => {
                   </div>
                 </div>
 
-                <Button variant="financial" className="w-full mt-6">
+                <Button variant="dramatic" className="w-full mt-6">
                   Schedule a Meeting
                 </Button>
               </CardContent>

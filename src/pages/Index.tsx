@@ -1,13 +1,11 @@
 import { HeroSection } from "@/components/HeroSection";
-import { PerformanceSection } from "@/components/PerformanceSection";
-import { AboutSection } from "@/components/AboutSection";
+import { MinimalistAbout } from "@/components/MinimalistAbout";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <HeroSection />
-      <PerformanceSection />
-      <AboutSection />
+      <MinimalistAbout />
     </div>
   );
 };

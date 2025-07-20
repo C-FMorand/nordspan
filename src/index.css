@@ -9,39 +9,36 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 212 15% 16%;
+    --foreground: 0 0% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 212 15% 16%;
+    --card-foreground: 0 0% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 212 15% 16%;
+    --popover-foreground: 0 0% 15%;
 
-    --primary: 212 84% 12%;
+    --primary: 0 0% 15%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 14% 95%;
-    --secondary-foreground: 212 15% 16%;
+    --secondary: 30 8% 95%;
+    --secondary-foreground: 0 0% 15%;
 
-    --muted: 210 14% 95%;
-    --muted-foreground: 212 8% 46%;
+    --muted: 30 8% 95%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 212 100% 47%;
+    --accent: 25 95% 53%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 214 20% 90%;
-    --input: 214 20% 90%;
-    --ring: 212 84% 12%;
+    --border: 30 8% 85%;
+    --input: 30 8% 85%;
+    --ring: 0 0% 15%;
 
-    --financial-blue: 212 84% 12%;
-    --financial-light: 212 100% 47%;
-    --financial-gradient: linear-gradient(135deg, hsl(212 84% 12%), hsl(212 100% 47%));
-    --financial-glow: 0 8px 32px hsl(212 84% 12% / 0.3);
-    --glass-bg: hsl(0 0% 100% / 0.8);
-    --glass-border: hsl(212 84% 12% / 0.1);
+    --dramatic-overlay: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+    --warm-accent: 25 95% 53%;
+    --warm-light: 35 100% 85%;
 
     --radius: 0.5rem;
 
