@@ -13,7 +13,7 @@ export const MinimalistAbout = () => {
             <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-medium mb-8 leading-tight tracking-tight">
               NordSpan combines secured direct loans with 
               <span className="block italic text-warm-accent">strategic investments</span>
-              in growth companies
+              in equity
             </h2>
             
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-4xl mx-auto font-light">
@@ -39,12 +39,12 @@ export const MinimalistAbout = () => {
             <div className="bg-card p-12 rounded-2xl border border-border/50 hover:border-primary/20 transition-all duration-300 group">
               <div className="mb-8">
                 <h3 className="font-display text-3xl font-semibold mb-4 group-hover:text-primary transition-colors">
-                  Growth Companies
+                  Equity
                 </h3>
                 <div className="text-warm-accent font-semibold text-lg">50% of portfolio</div>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Investments in private growth companies that we have monitored 
+                Investments in private equity that we have monitored 
                 for at least 12 months for reduced risk and strategic growth potential.
               </p>
             </div>

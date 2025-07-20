@@ -28,7 +28,7 @@ export const HeroSection = () => {
           <div className="max-w-3xl mx-auto mb-16 animate-fade-in">
             <p className="text-lg md:text-xl font-light opacity-90 leading-relaxed text-center">
               NordSpan is an alternative investment fund that combines secured direct loans 
-              with investments in growth companies for stable returns with professional excellence.
+              with investments in equity for stable returns with professional excellence.
             </p>
           </div>
           
