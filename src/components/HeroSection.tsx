@@ -20,25 +20,25 @@ export const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-light mb-8 leading-tight">
-            Alternativ investering med
-            <span className="block font-bold">balanserad risk</span>
+            Alternative investment with
+            <span className="block font-bold">balanced risk</span>
           </h1>
           
           <div className="max-w-2xl mx-auto mb-12">
             <p className="text-xl md:text-2xl font-light opacity-90 leading-relaxed">
-              NordSpan är en alternativ investeringsfond som kombinerar säkerställda direktlån 
-              med investeringar i tillväxtbolag för stabil avkastning.
+              NordSpan is an alternative investment fund that combines secured direct loans 
+              with investments in growth companies for stable returns.
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button variant="dramatic" className="min-w-64">
-              Jag vill investera
-              <span className="block text-sm font-normal opacity-80">Klicka här för att komma i kontakt</span>
+              I want to invest
+              <span className="block text-sm font-normal opacity-80">Click here to get in touch</span>
             </Button>
             <Button variant="dramatic-outline" className="min-w-64">
-              Läs mer om fonden
-              <span className="block text-sm font-normal opacity-80">Investeringsmemorandum och villkor</span>
+              Read more about the fund
+              <span className="block text-sm font-normal opacity-80">Investment memorandum and terms</span>
             </Button>
           </div>
         </div>

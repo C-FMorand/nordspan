@@ -27,16 +27,16 @@ export const Navigation = () => {
         {/* Desktop navigation */}
         <div className="hidden md:flex items-center space-x-8">
           <Link to="/" className="text-white hover:text-warm-accent transition-colors">
-            Hem
+            Home
           </Link>
           <Link to="/investeringar" className="text-white hover:text-warm-accent transition-colors">
-            Investeringar
+            Investments
           </Link>
           <Link to="/team" className="text-white hover:text-warm-accent transition-colors">
             Team
           </Link>
           <Button variant="dramatic-outline" size="sm">
-            Kontakt
+            Contact
           </Button>
         </div>
       </div>
@@ -50,14 +50,14 @@ export const Navigation = () => {
               className="text-white hover:text-warm-accent transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
-              Hem
+              Home
             </Link>
             <Link 
               to="/investeringar" 
               className="text-white hover:text-warm-accent transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
-              Investeringar
+              Investments
             </Link>
             <Link 
               to="/team" 
@@ -67,7 +67,7 @@ export const Navigation = () => {
               Team
             </Link>
             <Button variant="dramatic-outline" size="sm" className="mt-4">
-              Kontakt
+              Contact
             </Button>
           </div>
         </div>

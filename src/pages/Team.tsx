@@ -5,33 +5,33 @@ export const Team = () => {
   const teamMembers = [
     {
       name: "Carl-Fredrik Morander",
-      role: "Styrelseordförande",
+      role: "Chairman of the Board",
       company: "Cooach Capital Partners AB",
-      description: "Ansvarig för övergripande strategi och investeringsbeslut"
+      description: "Responsible for overall strategy and investment decisions"
     },
     {
       name: "Dickson Trujillo",
-      role: "Ordförande investeringskommittén",
+      role: "Chairman Investment Committee",
       company: "",
-      description: "Leder investeringskommittén och övervakar portföljbeslut"
+      description: "Leads the investment committee and oversees portfolio decisions"
     },
     {
       name: "Eric Hansson",
-      role: "Ansvarig sourcing och initial due diligence",
+      role: "Head of Sourcing and Initial Due Diligence",
       company: "",
-      description: "Identifierar och utvärderar nya investeringsmöjligheter"
+      description: "Identifies and evaluates new investment opportunities"
     },
     {
       name: "Sara Rejnefelt",
       role: "CFO",
       company: "",
-      description: "Ansvarig för fondens ekonomiska rapportering och finansiell styrning"
+      description: "Responsible for the fund's financial reporting and financial governance"
     },
     {
       name: "Maria Cepero",
-      role: "Due diligence-ansvarig",
-      company: "Spanien",
-      description: "Leder due diligence-processer för spanska investeringar"
+      role: "Due Diligence Manager",
+      company: "Spain",
+      description: "Leads due diligence processes for Spanish investments"
     }
   ];
 
@@ -43,11 +43,11 @@ export const Team = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-light mb-8">
-              Vårt <span className="font-bold">team</span>
+              Our <span className="font-bold">team</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              NordSpan drivs av ett erfaret team med djup kunskap inom investeringar, 
-              due diligence och portföljförvaltning.
+              NordSpan is driven by an experienced team with deep knowledge in investments, 
+              due diligence and portfolio management.
             </p>
           </div>
 
@@ -77,22 +77,22 @@ export const Team = () => {
           <div className="mt-16 max-w-3xl mx-auto text-center">
             <Card className="p-8">
               <CardContent>
-                <h2 className="text-3xl font-semibold mb-6">Organisation</h2>
+                <h2 className="text-3xl font-semibold mb-6">Organization</h2>
                 <div className="space-y-4 text-left">
                   <div className="flex justify-between items-center border-b pb-2">
-                    <span className="font-medium">AIF-förvaltare:</span>
+                    <span className="font-medium">AIF Manager:</span>
                     <span className="text-muted-foreground">Nowo Fund Management AB</span>
                   </div>
                   <div className="flex justify-between items-center border-b pb-2">
-                    <span className="font-medium">Delegerad portföljförvaltare:</span>
+                    <span className="font-medium">Delegated Portfolio Manager:</span>
                     <span className="text-muted-foreground">Cooach Capital Partners AB</span>
                   </div>
                   <div className="flex justify-between items-center border-b pb-2">
-                    <span className="font-medium">Ägare (51%):</span>
+                    <span className="font-medium">Owner (51%):</span>
                     <span className="text-muted-foreground">Cooach AB (publ)</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="font-medium">Ägare (49%):</span>
+                    <span className="font-medium">Owner (49%):</span>
                     <span className="text-muted-foreground">Napsdron Equity AB</span>
                   </div>
                 </div>

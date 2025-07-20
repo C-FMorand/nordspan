@@ -12,11 +12,11 @@ export const Investeringar = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-light mb-8">
-              Vår <span className="font-bold">investeringsstrategi</span>
+              Our <span className="font-bold">investment strategy</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              NordSpan kombinerar säkerställda direktlån med strategiska tillväxtinvesteringar 
-              för att skapa balanserad avkastning med reducerad risk.
+              NordSpan combines secured direct loans with strategic growth investments 
+              to create balanced returns with reduced risk.
             </p>
           </div>
 
@@ -29,29 +29,29 @@ export const Investeringar = () => {
                     <Shield className="w-6 h-6 text-warm-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold">Säkerställda direktlån</h3>
-                    <div className="text-warm-accent font-semibold">50% av portföljen</div>
+                    <h3 className="text-2xl font-semibold">Secured Direct Loans</h3>
+                    <div className="text-warm-accent font-semibold">50% of portfolio</div>
                   </div>
                 </div>
                 
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
-                    <span>Målavkastning:</span>
-                    <span className="font-semibold text-warm-accent">12% årligen</span>
+                    <span>Target return:</span>
+                    <span className="font-semibold text-warm-accent">12% annually</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span>Säkerhet:</span>
-                    <span className="font-semibold">Säkerställda lån</span>
+                    <span>Security:</span>
+                    <span className="font-semibold">Secured loans</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span>Kassaflöde:</span>
-                    <span className="font-semibold">Kvartalsvis</span>
+                    <span>Cash flow:</span>
+                    <span className="font-semibold">Quarterly</span>
                   </div>
                 </div>
                 
                 <p className="text-muted-foreground mt-6">
-                  Direktlån ger stabila kassaflöden som möjliggör regelbunden utdelning till investerare. 
-                  Lånen kan i vissa fall kombineras med optioner att konvertera till aktier.
+                  Direct loans provide stable cash flows that enable regular distributions to investors. 
+                  Loans can in some cases be combined with options to convert to equity.
                 </p>
               </CardContent>
             </Card>
@@ -63,29 +63,29 @@ export const Investeringar = () => {
                     <TrendingUp className="w-6 h-6 text-warm-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold">Tillväxtbolag</h3>
-                    <div className="text-warm-accent font-semibold">50% av portföljen</div>
+                    <h3 className="text-2xl font-semibold">Growth Companies</h3>
+                    <div className="text-warm-accent font-semibold">50% of portfolio</div>
                   </div>
                 </div>
                 
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
-                    <span>Monitoreringskrav:</span>
-                    <span className="font-semibold">Minimum 12 månader</span>
+                    <span>Monitoring requirement:</span>
+                    <span className="font-semibold">Minimum 12 months</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span>Fokus:</span>
-                    <span className="font-semibold">Onoterade bolag</span>
+                    <span>Focus:</span>
+                    <span className="font-semibold">Private companies</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span>Riskhantering:</span>
-                    <span className="font-semibold">Strukturerad uppföljning</span>
+                    <span>Risk management:</span>
+                    <span className="font-semibold">Structured follow-up</span>
                   </div>
                 </div>
                 
                 <p className="text-muted-foreground mt-6">
-                  Investeringar i tillväxtbolag som vi följt och analyserat under en längre period 
-                  för att reducera risk samtidigt som vi bibehåller uppsidepotential.
+                  Investments in growth companies that we have followed and analyzed over an extended period 
+                  to reduce risk while maintaining upside potential.
                 </p>
               </CardContent>
             </Card>
@@ -94,7 +94,7 @@ export const Investeringar = () => {
           {/* Key Metrics */}
           <Card className="p-8 mb-16">
             <CardContent>
-              <h2 className="text-3xl font-semibold text-center mb-8">Nyckeltal och villkor</h2>
+              <h2 className="text-3xl font-semibold text-center mb-8">Key metrics and terms</h2>
               
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="text-center">
@@ -102,8 +102,8 @@ export const Investeringar = () => {
                     <DollarSign className="w-8 h-8 text-warm-accent" />
                   </div>
                   <div className="text-2xl font-bold text-warm-accent mb-2">8%</div>
-                  <div className="text-sm text-muted-foreground">Årlig utdelning</div>
-                  <div className="text-xs text-muted-foreground mt-1">(6% kassaflödesbaserad)</div>
+                  <div className="text-sm text-muted-foreground">Annual distribution</div>
+                  <div className="text-xs text-muted-foreground mt-1">(6% cash flow based)</div>
                 </div>
                 
                 <div className="text-center">
@@ -111,17 +111,17 @@ export const Investeringar = () => {
                     <Target className="w-8 h-8 text-warm-accent" />
                   </div>
                   <div className="text-2xl font-bold text-warm-accent mb-2">100 000</div>
-                  <div className="text-sm text-muted-foreground">Preferensaktier</div>
-                  <div className="text-xs text-muted-foreground mt-1">à 100 SEK</div>
+                  <div className="text-sm text-muted-foreground">Preference shares</div>
+                  <div className="text-xs text-muted-foreground mt-1">at 100 SEK</div>
                 </div>
                 
                 <div className="text-center">
                   <div className="w-16 h-16 bg-warm-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Shield className="w-8 h-8 text-warm-accent" />
                   </div>
-                  <div className="text-2xl font-bold text-warm-accent mb-2">5 år</div>
-                  <div className="text-sm text-muted-foreground">Inlösentid</div>
-                  <div className="text-xs text-muted-foreground mt-1">eller vid IPO</div>
+                  <div className="text-2xl font-bold text-warm-accent mb-2">5 years</div>
+                  <div className="text-sm text-muted-foreground">Redemption period</div>
+                  <div className="text-xs text-muted-foreground mt-1">or at IPO</div>
                 </div>
                 
                 <div className="text-center">
@@ -129,7 +129,7 @@ export const Investeringar = () => {
                     <TrendingUp className="w-8 h-8 text-warm-accent" />
                   </div>
                   <div className="text-2xl font-bold text-warm-accent mb-2">2026</div>
-                  <div className="text-sm text-muted-foreground">Planerad notering</div>
+                  <div className="text-sm text-muted-foreground">Planned listing</div>
                   <div className="text-xs text-muted-foreground mt-1">NGM Nordic AIF</div>
                 </div>
               </div>
@@ -139,34 +139,34 @@ export const Investeringar = () => {
           {/* Risk Factors */}
           <Card className="p-8 mb-16">
             <CardContent>
-              <h2 className="text-3xl font-semibold mb-6">Riskfaktorer</h2>
+              <h2 className="text-3xl font-semibold mb-6">Risk factors</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-warm-accent rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Motpartsrisk i direktlåneportföljen</span>
+                    <span className="text-muted-foreground">Counterparty risk in direct loan portfolio</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-warm-accent rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Värderingsosäkerhet i onoterade innehav</span>
+                    <span className="text-muted-foreground">Valuation uncertainty in private holdings</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-warm-accent rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Regulatorisk risk kopplad till AIF-strukturen</span>
+                    <span className="text-muted-foreground">Regulatory risk related to AIF structure</span>
                   </div>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-warm-accent rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Marknadsrisker som påverkar kassaflöden</span>
+                    <span className="text-muted-foreground">Market risks affecting cash flows</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-warm-accent rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Likviditetsrisk före notering</span>
+                    <span className="text-muted-foreground">Liquidity risk before listing</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-warm-accent rounded-full mt-2"></div>
-                    <span className="text-muted-foreground">Skatterisker kopplade till strukturen</span>
+                    <span className="text-muted-foreground">Tax risks related to the structure</span>
                   </div>
                 </div>
               </div>
@@ -176,7 +176,7 @@ export const Investeringar = () => {
           {/* CTA */}
           <div className="text-center">
             <Button variant="dramatic" size="lg">
-              Ladda ner investeringsmemorandum
+              Download investment memorandum
             </Button>
           </div>
         </div>

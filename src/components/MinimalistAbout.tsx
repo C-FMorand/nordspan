@@ -11,33 +11,33 @@ export const MinimalistAbout = () => {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-light mb-8 leading-tight">
-              NordSpan kombinerar säkerställda direktlån med 
-              strategiska investeringar i tillväxtbolag
+              NordSpan combines secured direct loans with 
+              strategic investments in growth companies
             </h2>
             
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Vår investeringsstrategi skapar kassaflödesbaserad avkastning samtidigt 
-              som vi bibehåller uppsida från equity-investeringar med reducerad risk.
+              Our investment strategy creates cash flow-based returns while 
+              maintaining upside from equity investments with reduced risk.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <Card className="p-8 text-center hover:shadow-lg transition-shadow">
               <CardContent>
-                <h3 className="text-2xl font-semibold mb-4">Direktlån (50%)</h3>
+                <h3 className="text-2xl font-semibold mb-4">Direct Loans (50%)</h3>
                 <p className="text-muted-foreground">
-                  Säkerställda direktlån med målavkastning om 12% årligen. 
-                  Skapar stabila kassaflöden för kvartalsvis utdelning.
+                  Secured direct loans with target returns of 12% annually. 
+                  Creates stable cash flows for quarterly distributions.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="p-8 text-center hover:shadow-lg transition-shadow">
               <CardContent>
-                <h3 className="text-2xl font-semibold mb-4">Tillväxtbolag (50%)</h3>
+                <h3 className="text-2xl font-semibold mb-4">Growth Companies (50%)</h3>
                 <p className="text-muted-foreground">
-                  Investeringar i onoterade tillväxtbolag som vi monitorerat 
-                  i minst 12 månader för reducerad risk.
+                  Investments in private growth companies that we have monitored 
+                  for at least 12 months for reduced risk.
                 </p>
               </CardContent>
             </Card>
