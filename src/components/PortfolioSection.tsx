@@ -1,13 +1,15 @@
 import { Card, CardContent } from "@/components/ui/card";
+import wittraLogo from "@/assets/wittra-logo.png";
 
 const portfolioCompanies = [
   {
     id: 1,
-    name: "TechFlow Solutions",
-    description: "Revolutionerande IoT-lösningar för industriell automation och smarta fabriker.",
-    technologies: ["IoT", "Automation", "AI"],
-    image: "/placeholder.svg?height=300&width=500",
-    category: "Industrial Tech"
+    name: "Wittra",
+    description: "Innovativ Hybrid Real-Time Location System för tillgångsspårning och sensordata som möjliggör tidigare omöjliga användningsfall med marknadens snabbaste ROI. Wittra levererar IoT-lösningar för industriella applikationer med patenterad teknologi inom positionering och mesh-nätverk.",
+    technologies: ["Hybrid RTLS", "UWB Technology", "IoT Sensors", "Asset Tracking"],
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
+    category: "IoT Technology",
+    logo: wittraLogo
   },
   {
     id: 2,
@@ -75,9 +77,18 @@ export const PortfolioSection = () => {
 
               <CardContent className="p-6 relative -mt-12 z-10">
                 <div className="bg-card rounded-lg p-6 shadow-lg">
-                  <h3 className="font-display text-2xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
-                    {company.name}
-                  </h3>
+                  <div className="flex items-center gap-3 mb-3">
+                    {company.logo && (
+                      <img 
+                        src={company.logo} 
+                        alt={`${company.name} logo`} 
+                        className="h-8 w-auto"
+                      />
+                    )}
+                    <h3 className="font-display text-2xl font-bold text-foreground group-hover:text-primary transition-colors duration-300">
+                      {company.name}
+                    </h3>
+                  </div>
                   
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     {company.description}
