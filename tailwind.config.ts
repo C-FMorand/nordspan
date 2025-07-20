@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'display': ['Playfair Display', 'serif'],
+				'sans': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +56,8 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				"warm-accent": "hsl(var(--warm-accent))",
+				"warm-muted": "hsl(var(--warm-muted))",
 				warm: {
 					accent: 'hsl(var(--warm-accent))',
 					light: 'hsl(var(--warm-light))'
@@ -88,12 +94,26 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				"fade-in": {
+					"0%": {
+						opacity: "0",
+						transform: "translateY(20px)"
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translateY(0)"
+					}
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				"fade-in": "fade-in 0.6s ease-out",
+			},
+			spacing: {
+				'section': 'var(--section-spacing)',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

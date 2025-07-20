@@ -8,37 +8,36 @@ export const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <Navigation />
       
-      {/* Background Image */}
+      {/* Background Image with enhanced overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${dramaticLandscape})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/60 to-black/80"></div>
+        <div className="absolute inset-0 bg-primary/20"></div>
       </div>
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-8xl font-light mb-8 leading-tight">
+          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium mb-8 leading-tight tracking-tight animate-fade-in">
             Alternative investment with
-            <span className="block font-bold">balanced risk</span>
+            <span className="block font-bold italic text-warm-accent">balanced risk</span>
           </h1>
           
-          <div className="max-w-2xl mx-auto mb-12">
-            <p className="text-xl md:text-2xl font-light opacity-90 leading-relaxed">
+          <div className="max-w-3xl mx-auto mb-16 animate-fade-in">
+            <p className="text-lg md:text-xl font-light opacity-90 leading-relaxed text-center">
               NordSpan is an alternative investment fund that combines secured direct loans 
-              with investments in growth companies for stable returns.
+              with investments in growth companies for stable returns with professional excellence.
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="dramatic" className="min-w-64">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
+            <Button variant="default" size="lg" className="min-w-56 h-14 text-lg font-medium">
               I want to invest
-              <span className="block text-sm font-normal opacity-80">Click here to get in touch</span>
             </Button>
-            <Button variant="dramatic-outline" className="min-w-64">
-              Read more about the fund
-              <span className="block text-sm font-normal opacity-80">Investment memorandum and terms</span>
+            <Button variant="outline" size="lg" className="min-w-56 h-14 text-lg font-medium border-white/30 text-white hover:bg-white/10">
+              Learn more about the fund
             </Button>
           </div>
         </div>
