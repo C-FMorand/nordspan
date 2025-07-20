@@ -63,7 +63,7 @@ export const Investeringar = () => {
                     <TrendingUp className="w-6 h-6 text-warm-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold">Equity</h3>
+                    <h3 className="text-2xl font-semibold">Growth Companies</h3>
                     <div className="text-warm-accent font-semibold">50% of portfolio</div>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export const Investeringar = () => {
                 </div>
                 
                 <p className="text-muted-foreground mt-6">
-                  Investments in equity that we have followed and analyzed over an extended period 
+                  Investments in growth companies that we have followed and analyzed over an extended period 
                   to reduce risk while maintaining upside potential.
                 </p>
               </CardContent>
