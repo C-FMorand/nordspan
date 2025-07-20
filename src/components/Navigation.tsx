@@ -11,7 +11,7 @@ export const Navigation = () => {
       <div className="flex justify-between items-center">
         <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
           <img 
-            src="/lovable-uploads/d4492a0f-47c0-4050-8715-04391cd660eb.png" 
+            src="/lovable-uploads/9ed12069-98c1-47c7-a1e6-97f432279ca8.png" 
             alt="NordSpan" 
             className="h-12 w-auto"
           />
