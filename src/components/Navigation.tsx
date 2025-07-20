@@ -13,7 +13,9 @@ export const Navigation = () => {
           <img 
             src="/lovable-uploads/9ed12069-98c1-47c7-a1e6-97f432279ca8.png" 
             alt="NordSpan" 
-            className="h-12 w-auto filter drop-shadow-lg"
+            className="h-12 w-auto filter drop-shadow-lg bg-white/10 p-2 rounded"
+            onError={(e) => console.log('Logo failed to load:', e)}
+            onLoad={() => console.log('Logo loaded successfully')}
           />
         </Link>
         
