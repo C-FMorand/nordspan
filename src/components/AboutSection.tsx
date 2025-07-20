@@ -10,39 +10,39 @@ export const AboutSection = () => {
           {/* About Content */}
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">
-              Investment Philosophy
+              Investeringsfilosofi
             </h2>
             <div className="space-y-6 text-muted-foreground">
               <p className="text-lg">
-                Meridian Capital employs a fundamental, research-driven approach to investing, 
-                focusing on companies with sustainable competitive advantages and strong management teams.
+                NordSpan bygger en långsiktig investeringsportfölj med balanserad riskprofil 
+                genom att kombinera kassaflödesgenererande direktlån med övervakade tillväxtinvesteringar.
               </p>
               <p>
-                Our investment strategy combines rigorous financial analysis with deep sector expertise 
-                to identify opportunities that offer attractive risk-adjusted returns over the long term.
+                Vår strategi ger en målsatt årlig kassaflödesbaserad utdelning om 6%, 
+                samtidigt som vi bibehåller uppsidepotential från equity-investeringar.
               </p>
               <p>
-                With over $2.4 billion in assets under management, we maintain a concentrated portfolio 
-                of our highest-conviction ideas while implementing sophisticated risk management techniques.
+                Fonden emitterar upp till 100 000 preferensaktier à 100 SEK med kvartalsvis 
+                utdelning om 8% per år, varav 6% bedöms kassaflödesbaserad.
               </p>
             </div>
             
             <div className="mt-8 space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-financial-light rounded-full"></div>
-                <span>Fundamental analysis and deep research</span>
+                <span>Säkerställda direktlån med 12% målavkastning</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-financial-light rounded-full"></div>
-                <span>Long-term value creation focus</span>
+                <span>Monitorerade tillväxtbolag (minimum 12 månader)</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-financial-light rounded-full"></div>
-                <span>Disciplined risk management</span>
+                <span>Kvartalsvis rapportering och värdering</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-financial-light rounded-full"></div>
-                <span>ESG integration across all investments</span>
+                <span>Planerad notering på NGM Nordic AIF 2026</span>
               </div>
             </div>
           </div>
@@ -52,9 +52,9 @@ export const AboutSection = () => {
             <Card className="p-8">
               <CardContent className="space-y-6">
                 <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold mb-2">Get in Touch</h3>
+                  <h3 className="text-2xl font-bold mb-2">Kontakta oss</h3>
                   <p className="text-muted-foreground">
-                    Speak with our investor relations team
+                    Kontakta vårt team för mer information
                   </p>
                 </div>
 
@@ -64,8 +64,8 @@ export const AboutSection = () => {
                       <Phone className="w-5 h-5 text-financial-light" />
                     </div>
                     <div>
-                      <div className="font-medium">Phone</div>
-                      <div className="text-muted-foreground">+1 (555) 123-4567</div>
+                      <div className="font-medium">Telefon</div>
+                      <div className="text-muted-foreground">+46 8 123 456 78</div>
                     </div>
                   </div>
 
@@ -74,8 +74,8 @@ export const AboutSection = () => {
                       <Mail className="w-5 h-5 text-financial-light" />
                     </div>
                     <div>
-                      <div className="font-medium">Email</div>
-                      <div className="text-muted-foreground">investors@meridiancapital.com</div>
+                      <div className="font-medium">E-post</div>
+                      <div className="text-muted-foreground">info@nordspan.se</div>
                     </div>
                   </div>
 
@@ -84,17 +84,17 @@ export const AboutSection = () => {
                       <MapPin className="w-5 h-5 text-financial-light" />
                     </div>
                     <div>
-                      <div className="font-medium">Office</div>
+                      <div className="font-medium">Kontor</div>
                       <div className="text-muted-foreground">
-                        100 Wall Street, Suite 2500<br />
-                        New York, NY 10005
+                        Kungsgatan 12<br />
+                        111 35 Stockholm
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <Button variant="dramatic" className="w-full mt-6">
-                  Schedule a Meeting
+                  Boka ett möte
                 </Button>
               </CardContent>
             </Card>

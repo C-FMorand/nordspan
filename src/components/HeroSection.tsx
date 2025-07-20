@@ -20,25 +20,25 @@ export const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-light mb-8 leading-tight">
-            We finance successful
-            <span className="block font-bold">entrepreneurs</span>
+            Alternativ investering med
+            <span className="block font-bold">balanserad risk</span>
           </h1>
           
           <div className="max-w-2xl mx-auto mb-12">
             <p className="text-xl md:text-2xl font-light opacity-90 leading-relaxed">
-              Meridian Capital is a venture capital fund focused on backing successful entrepreneurs 
-              to build valuable companies together.
+              NordSpan är en alternativ investeringsfond som kombinerar säkerställda direktlån 
+              med investeringar i tillväxtbolag för stabil avkastning.
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button variant="dramatic" className="min-w-64">
-              I want to invest
-              <span className="block text-sm font-normal opacity-80">Click here to get in touch</span>
+              Jag vill investera
+              <span className="block text-sm font-normal opacity-80">Klicka här för att komma i kontakt</span>
             </Button>
             <Button variant="dramatic-outline" className="min-w-64">
-              I seek capital
-              <span className="block text-sm font-normal opacity-80">Click here to submit an interest form</span>
+              Läs mer om fonden
+              <span className="block text-sm font-normal opacity-80">Investeringsmemorandum och villkor</span>
             </Button>
           </div>
         </div>
