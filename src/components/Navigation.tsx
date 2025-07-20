@@ -10,8 +10,12 @@ export const Navigation = () => {
   return (
     <nav className="absolute top-0 left-0 right-0 z-50 p-6">
       <div className="flex justify-between items-center">
-        <Link to="/" className="text-white text-xl font-bold hover:opacity-80 transition-opacity">
-          NORDSPAN
+        <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
+          <img 
+            src="/lovable-uploads/d4492a0f-47c0-4050-8715-04391cd660eb.png" 
+            alt="NordSpan" 
+            className="h-8 w-auto"
+          />
         </Link>
         
         {/* Mobile menu button */}
