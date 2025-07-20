@@ -14,7 +14,7 @@ export const Navigation = () => {
           <img 
             src="/lovable-uploads/d4492a0f-47c0-4050-8715-04391cd660eb.png" 
             alt="NordSpan" 
-            className="h-8 w-auto"
+            className="h-12 w-auto"
           />
         </Link>
         
