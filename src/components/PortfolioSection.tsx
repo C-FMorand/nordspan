@@ -1,5 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import wittraLogo from "@/assets/wittra-logo.png";
+import engageLogo from "@/assets/3ngage-logo.png";
+import novaLogo from "@/assets/nova-logo.svg";
+import bucketProsLogo from "@/assets/bucketpros-logo.png";
 
 const portfolioCompanies = [
   {
@@ -13,27 +16,54 @@ const portfolioCompanies = [
   },
   {
     id: 2,
-    name: "GreenEnergy Nordic",
-    description: "Hållbara energilösningar med fokus på solenergi och energilagring för företag.",
-    technologies: ["Solar", "Energy Storage", "Sustainability"],
-    image: "/placeholder.svg?height=300&width=500",
-    category: "CleanTech"
+    name: "Radio Innovation",
+    description: "Svensk telekom-pionjär som utvecklar nästa generations 5G-anslutningar och 4G-lösningar. Hjälper mobiloperatörer att sänka sin totala ägandekostnad med unika antennsystem som kraftigt förbättrar mobilkommunikation.",
+    technologies: ["5G", "4G", "Antenna Systems", "Cellular Networks"],
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
+    category: "Telecom Tech"
   },
   {
     id: 3,
-    name: "DataSecure Pro",
-    description: "Avancerad cybersäkerhet och dataskydd för små och medelstora företag.",
-    technologies: ["Cybersecurity", "Data Protection", "Cloud"],
-    image: "/placeholder.svg?height=300&width=500",
-    category: "Security Tech"
+    name: "WeStudents",
+    description: "Sveriges ledande plattform för lokala studentrabatter. Ger studenter tillgång till hundratals lokala och nationella rabatter genom ett digitalt studiebevis med dedikerad mobilapp.",
+    technologies: ["Student Platform", "Mobile App", "Digital Identity"],
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
+    category: "EdTech"
   },
   {
     id: 4,
-    name: "MedTech Innovations",
-    description: "Digital hälsoteknik som förbättrar patientövervakning och diagnostik.",
-    technologies: ["HealthTech", "Diagnostics", "Digital Health"],
-    image: "/placeholder.svg?height=300&width=500",
-    category: "HealthTech"
+    name: "Navigare Properties",
+    description: "Exklusiva semesterhem med hotellstandard service och omfattande förvaltningslösningar. Erbjuder livsstilsinvesteringar i unika destinationer med skräddarsydda, högkvalitativa semesterbostäder.",
+    technologies: ["PropTech", "Hospitality", "Investment Platform"],
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
+    category: "PropTech"
+  },
+  {
+    id: 5,
+    name: "3ngage",
+    description: "Digitala tvillingar för försäljning och utbildning. Låter köpare och användare uppleva fysiska produkter i digitala miljöer med interaktiva simuleringar för försäljning, träning och support.",
+    technologies: ["Digital Twins", "3D Simulation", "Sales Tech", "Interactive Demos"],
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
+    category: "Digital Experience",
+    logo: engageLogo
+  },
+  {
+    id: 6,
+    name: "Nova Talent",
+    description: "Globalt nätverk som kopplar samman de mest talangfulla individerna i världen, alla utvalda baserat på merit. Professional network som förbinder topptalanger med de bästa möjligheterna.",
+    technologies: ["Talent Network", "Professional Platform", "Career Development"],
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
+    category: "HRTech",
+    logo: novaLogo
+  },
+  {
+    id: 7,
+    name: "The Bucket Pros",
+    description: "Range as a Service (RaaS) - framtiden för drivingrange-verksamheter. Erbjuder komplett bollhanteringssystem, rangeutrustning och innovative tjänster för att ta golfanläggningar till nästa nivå.",
+    technologies: ["Golf Tech", "Range Management", "Ball Systems", "Sports Equipment"],
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
+    category: "Sports Tech",
+    logo: bucketProsLogo
   }
 ];
 
