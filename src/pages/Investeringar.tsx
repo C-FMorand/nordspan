@@ -63,7 +63,7 @@ export const Investeringar = () => {
                     <TrendingUp className="w-6 h-6 text-warm-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold">Growth Companies</h3>
+                    <h3 className="text-2xl font-semibold">Equity Investments</h3>
                     <div className="text-warm-accent font-semibold">50% of portfolio</div>
                   </div>
                 </div>

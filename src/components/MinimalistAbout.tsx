@@ -39,7 +39,7 @@ export const MinimalistAbout = () => {
             <div className="bg-card p-12 rounded-2xl border border-border/50 hover:border-primary/20 transition-all duration-300 group">
               <div className="mb-8">
                 <h3 className="font-display text-3xl font-semibold mb-4 group-hover:text-primary transition-colors">
-                  Growth Companies
+                  Equity Investments
                 </h3>
                 <div className="text-warm-accent font-semibold text-lg">50% of portfolio</div>
               </div>
