@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import nordspanLogo from "@/assets/nordspan-logo.png";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +11,7 @@ export const Navigation = () => {
       <div className="flex justify-between items-center">
         <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
           <img 
-            src={nordspanLogo} 
+            src="/lovable-uploads/d4492a0f-47c0-4050-8715-04391cd660eb.png" 
             alt="NordSpan" 
             className="h-12 w-auto"
           />
