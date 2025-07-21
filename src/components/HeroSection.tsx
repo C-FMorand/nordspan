@@ -36,7 +36,7 @@ export const HeroSection = () => {
             <Button variant="default" size="lg" className="min-w-56 h-14 text-lg font-medium">
               I want to invest
             </Button>
-            <Button variant="outline" size="lg" className="min-w-56 h-14 text-lg font-medium border-white/30 text-white hover:bg-white/10">
+            <Button variant="dramatic-outline" size="lg" className="min-w-56 h-14 text-lg font-medium">
               Learn more about the fund
             </Button>
           </div>
