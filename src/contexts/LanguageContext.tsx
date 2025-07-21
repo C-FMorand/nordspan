@@ -22,7 +22,7 @@ const translations = {
     // Hero Section
     'hero.title.part1': 'Alternativ investering med',
     'hero.title.part2': 'balanserad risk',
-    'hero.subtitle': 'NordSpan är en alternativ investeringsfond som kombinerar säkrade direktlån med investeringar i tillväxtföretag för att kombinera stabila avkastningar med hög potentiell värdestegring.',
+    'hero.subtitle': 'Stabilitet möter tillväxt. NordSpan kombinerar direktavkastning från säkerställda lån med potentialen i tillväxtbolag – i en fondliknande struktur optimerad för affärsdrivna investerare.',
     'hero.cta.invest': 'Jag vill investera',
     'hero.cta.learn': 'Läs mer om fonden',
     
