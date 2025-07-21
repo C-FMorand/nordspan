@@ -107,7 +107,7 @@ const translations = {
     'invest.feature1.description': 'Vi upprätthåller daglig kontakt med våra portföljföretag, vilket gör det möjligt för oss att genomföra kontinuerlig due diligence och säkerställa grundlig förståelse av deras verksamhet, finansiella hälsa och tillväxtpotential.',
     'invest.feature2.title': 'Djup kunskap om portföljföretag',
     'invest.feature2.description': 'Vi fokuserar våra investeringsmöjligheter på företag vi redan arbetat omfattande med. Detta innebär att vi känner dem väl och kan erbjuda insikter som andra kanske inte har.',
-    'invest.feature3.title': 'Icke-utspädande kapital',
+    'invest.feature3.title': 'Hybridkapital',
     'invest.feature3.description': 'NordSpan kombinerar säkerställda brygglån med deltagande i nyemissioner. Brygglånet utgör ofta första steget och möjliggör för NordSpan att följa bolaget och avvakta med ett definitivt investeringsbeslut till dess att målbolaget bevisat sig.',
     'invest.feature4.title': 'Hög tillväxtpotential',
     'invest.feature4.description': 'Genom att investera i innovativa, tillväxtorienterade företag syftar NordSpan till att generera attraktiv avkastning. Vår strategiska insikt kombinerat med robust finansiellt stöd gör det möjligt för dessa företag att lyckas.',
