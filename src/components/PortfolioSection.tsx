@@ -9,7 +9,7 @@ const portfolioCompanies = [
   {
     id: 1,
     name: "Wittra",
-    description: "Innovativ Hybrid Real-Time Location System för tillgångsspårning och sensordata som möjliggör tidigare omöjliga användningsfall med marknadens snabbaste ROI. Wittra levererar IoT-lösningar för industriella applikationer med patenterad teknologi inom positionering och mesh-nätverk.",
+    descriptionKey: "company.wittra.description",
     technologies: ["Hybrid RTLS", "UWB Technology", "IoT Sensors", "Asset Tracking"],
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
     category: "IoT Technology",
@@ -18,7 +18,7 @@ const portfolioCompanies = [
   {
     id: 2,
     name: "Radio Innovation",
-    description: "Svensk telekom-pionjär som utvecklar nästa generations 5G-anslutningar och 4G-lösningar. Hjälper mobiloperatörer att sänka sin totala ägandekostnad med unika antennsystem som kraftigt förbättrar mobilkommunikation.",
+    descriptionKey: "company.radioinnovation.description",
     technologies: ["5G", "4G", "Antenna Systems", "Cellular Networks"],
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
     category: "Telecom Tech"
@@ -26,7 +26,7 @@ const portfolioCompanies = [
   {
     id: 3,
     name: "WeStudents",
-    description: "Sveriges ledande plattform för lokala studentrabatter. Ger studenter tillgång till hundratals lokala och nationella rabatter genom ett digitalt studiebevis med dedikerad mobilapp.",
+    descriptionKey: "company.westudents.description",
     technologies: ["Student Platform", "Mobile App", "Digital Identity"],
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
     category: "EdTech"
@@ -34,7 +34,7 @@ const portfolioCompanies = [
   {
     id: 4,
     name: "Navigare Properties",
-    description: "Exklusiva semesterhem med hotellstandard service och omfattande förvaltningslösningar. Erbjuder livsstilsinvesteringar i unika destinationer med skräddarsydda, högkvalitativa semesterbostäder.",
+    descriptionKey: "company.navigare.description",
     technologies: ["PropTech", "Hospitality", "Investment Platform"],
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
     category: "PropTech"
@@ -42,7 +42,7 @@ const portfolioCompanies = [
   {
     id: 5,
     name: "3ngage",
-    description: "Digitala tvillingar för försäljning och utbildning. Låter köpare och användare uppleva fysiska produkter i digitala miljöer med interaktiva simuleringar för försäljning, träning och support.",
+    descriptionKey: "company.3ngage.description",
     technologies: ["Digital Twins", "3D Simulation", "Sales Tech", "Interactive Demos"],
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
     category: "Digital Experience",
@@ -51,7 +51,7 @@ const portfolioCompanies = [
   {
     id: 6,
     name: "Nova Talent",
-    description: "Globalt nätverk som kopplar samman de mest talangfulla individerna i världen, alla utvalda baserat på merit. Professional network som förbinder topptalanger med de bästa möjligheterna.",
+    descriptionKey: "company.nova.description",
     technologies: ["Talent Network", "Professional Platform", "Career Development"],
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
     category: "HRTech",
@@ -60,7 +60,7 @@ const portfolioCompanies = [
   {
     id: 7,
     name: "The Bucket Pros",
-    description: "Range as a Service (RaaS) - framtiden för drivingrange-verksamheter. Erbjuder komplett bollhanteringssystem, rangeutrustning och innovative tjänster för att ta golfanläggningar till nästa nivå.",
+    descriptionKey: "company.bucketpros.description",
     technologies: ["Golf Tech", "Range Management", "Ball Systems", "Sports Equipment"],
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
     category: "Sports Tech",
@@ -75,11 +75,10 @@ export const PortfolioSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-            Våra Portföljföretag
+            {t('portfolio.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Vi investerar i innovativa företag som formar framtiden inom teknologi, 
-            hållbarhet och digital transformation.
+            {t('portfolio.subtitle')}
           </p>
         </div>
 
@@ -123,7 +122,7 @@ export const PortfolioSection = () => {
                   </div>
                   
                   <p className="text-muted-foreground mb-4 leading-relaxed">
-                    {company.description}
+                    {t(company.descriptionKey)}
                   </p>
 
                   <div className="flex flex-wrap gap-2 mb-4">
@@ -138,7 +137,7 @@ export const PortfolioSection = () => {
                   </div>
 
                   <button className="text-primary font-semibold text-sm group-hover:text-warm-accent transition-colors duration-300 flex items-center gap-2">
-                    Läs mer
+                    {t('portfolio.readMore')}
                     <svg 
                       className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" 
                       fill="none" 
@@ -156,10 +155,10 @@ export const PortfolioSection = () => {
 
         <div className="text-center mt-16 animate-fade-in" style={{ animationDelay: '800ms' }}>
           <p className="text-muted-foreground text-lg mb-6">
-            Är du ett innovativt företag som söker investering?
+            {t('portfolio.callToAction')}
           </p>
           <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors duration-300 shadow-lg hover:shadow-xl">
-            Kontakta oss
+            {t('portfolio.contactUs')}
           </button>
         </div>
       </div>

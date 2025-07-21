@@ -69,8 +69,36 @@ const translations = {
     'process.consultation.cta': 'Boka en Konsultation',
     
     // Portfolio
-    'portfolio.title': 'Vår portfölj',
-    'portfolio.subtitle': 'Vi investerar i starka företag med bevisade affärsmodeller och tillväxtpotential'
+    'portfolio.title': 'Våra Portföljföretag',
+    'portfolio.subtitle': 'Vi investerar i innovativa företag som formar framtiden inom teknologi, hållbarhet och digital transformation.',
+    'portfolio.readMore': 'Läs mer',
+    'portfolio.callToAction': 'Är du ett innovativt företag som söker investering?',
+    'portfolio.contactUs': 'Kontakta oss',
+    
+    // Company descriptions
+    'company.wittra.description': 'Innovativ Hybrid Real-Time Location System för tillgångsspårning och sensordata som möjliggör tidigare omöjliga användningsfall med marknadens snabbaste ROI. Wittra levererar IoT-lösningar för industriella applikationer med patenterad teknologi inom positionering och mesh-nätverk.',
+    'company.radioinnovation.description': 'Svensk telekom-pionjär som utvecklar nästa generations 5G-anslutningar och 4G-lösningar. Hjälper mobiloperatörer att sänka sin totala ägandekostnad med unika antennsystem som kraftigt förbättrar mobilkommunikation.',
+    'company.westudents.description': 'Sveriges ledande plattform för lokala studentrabatter. Ger studenter tillgång till hundratals lokala och nationella rabatter genom ett digitalt studiebevis med dedikerad mobilapp.',
+    'company.navigare.description': 'Exklusiva semesterhem med hotellstandard service och omfattande förvaltningslösningar. Erbjuder livsstilsinvesteringar i unika destinationer med skräddarsydda, högkvalitativa semesterbostäder.',
+    'company.3ngage.description': 'Digitala tvillingar för försäljning och utbildning. Låter köpare och användare uppleva fysiska produkter i digitala miljöer med interaktiva simuleringar för försäljning, träning och support.',
+    'company.nova.description': 'Globalt nätverk som kopplar samman de mest talangfulla individerna i världen, alla utvalda baserat på merit. Professional network som förbinder topptalanger med de bästa möjligheterna.',
+    'company.bucketpros.description': 'Range as a Service (RaaS) - framtiden för drivingrange-verksamheter. Erbjuder komplett bollhanteringssystem, rangeutrustning och innovative tjänster för att ta golfanläggningar till nästa nivå.',
+    
+    // About/Investment Philosophy (for AboutSection.tsx)
+    'about.philosophy.title': 'Investeringsfilosofi',
+    'about.philosophy.desc1': 'NordSpan bygger en långsiktig investeringsportfölj med balanserad riskprofil genom att kombinera kassaflödesgenererande direktlån med övervakade tillväxtinvesteringar.',
+    'about.philosophy.desc2': 'Vår strategi ger en målsatt årlig kassaflödesbaserad utdelning om 6%, samtidigt som vi bibehåller uppsidepotential från equity-investeringar.',
+    'about.philosophy.desc3': 'Fonden emitterar upp till 100 000 preferensaktier à 100 SEK med kvartalsvis utdelning om 8% per år, varav 6% bedöms kassaflödesbaserad.',
+    'about.philosophy.point1': 'Säkerställda direktlån med 12% målavkastning',
+    'about.philosophy.point2': 'Monitorerade tillväxtbolag (minimum 12 månader)',
+    'about.philosophy.point3': 'Kvartalsvis rapportering och värdering',
+    'about.philosophy.point4': 'Planerad notering på NGM Nordic AIF 2026',
+    'about.contact.title': 'Kontakta oss',
+    'about.contact.subtitle': 'Kontakta vårt team för mer information',
+    'about.contact.phone': 'Telefon',
+    'about.contact.email': 'E-post',
+    'about.contact.office': 'Kontor',
+    'about.contact.cta': 'Boka ett möte'
   },
   
   en: {
@@ -130,8 +158,36 @@ const translations = {
     'process.consultation.cta': 'Schedule a Consultation',
     
     // Portfolio
-    'portfolio.title': 'Our Portfolio',
-    'portfolio.subtitle': 'We invest in strong companies with proven business models and growth potential'
+    'portfolio.title': 'Our Portfolio Companies',
+    'portfolio.subtitle': 'We invest in innovative companies shaping the future in technology, sustainability and digital transformation.',
+    'portfolio.readMore': 'Read more',
+    'portfolio.callToAction': 'Are you an innovative company seeking investment?',
+    'portfolio.contactUs': 'Contact us',
+    
+    // Company descriptions
+    'company.wittra.description': 'Innovative Hybrid Real-Time Location System for asset tracking and sensor data enabling previously impossible use cases with the market\'s fastest ROI. Wittra delivers IoT solutions for industrial applications with patented technology in positioning and mesh networks.',
+    'company.radioinnovation.description': 'Swedish telecom pioneer developing next-generation 5G connections and 4G solutions. Helps mobile operators reduce their total cost of ownership with unique antenna systems that dramatically improve mobile communication.',
+    'company.westudents.description': 'Sweden\'s leading platform for local student discounts. Gives students access to hundreds of local and national discounts through a digital student ID with dedicated mobile app.',
+    'company.navigare.description': 'Exclusive vacation homes with hotel-standard service and comprehensive management solutions. Offers lifestyle investments in unique destinations with tailored, high-quality vacation properties.',
+    'company.3ngage.description': 'Digital twins for sales and training. Lets buyers and users experience physical products in digital environments with interactive simulations for sales, training and support.',
+    'company.nova.description': 'Global network connecting the most talented individuals in the world, all selected based on merit. Professional network that connects top talent with the best opportunities.',
+    'company.bucketpros.description': 'Range as a Service (RaaS) - the future of driving range operations. Offers complete ball management systems, range equipment and innovative services to take golf facilities to the next level.',
+    
+    // About/Investment Philosophy (for AboutSection.tsx)
+    'about.philosophy.title': 'Investment Philosophy',
+    'about.philosophy.desc1': 'NordSpan builds a long-term investment portfolio with balanced risk profile by combining cash flow-generating direct loans with monitored growth investments.',
+    'about.philosophy.desc2': 'Our strategy provides a targeted annual cash flow-based distribution of 6%, while maintaining upside potential from equity investments.',
+    'about.philosophy.desc3': 'The fund issues up to 100,000 preference shares at 100 SEK with quarterly distributions of 8% per year, of which 6% is assessed as cash flow-based.',
+    'about.philosophy.point1': 'Secured direct loans with 12% target return',
+    'about.philosophy.point2': 'Monitored growth companies (minimum 12 months)',
+    'about.philosophy.point3': 'Quarterly reporting and valuation',
+    'about.philosophy.point4': 'Planned listing on NGM Nordic AIF 2026',
+    'about.contact.title': 'Contact us',
+    'about.contact.subtitle': 'Contact our team for more information',
+    'about.contact.phone': 'Phone',
+    'about.contact.email': 'Email',
+    'about.contact.office': 'Office',
+    'about.contact.cta': 'Book a meeting'
   },
   
   es: {
@@ -191,8 +247,36 @@ const translations = {
     'process.consultation.cta': 'Programa una Consulta',
     
     // Portfolio
-    'portfolio.title': 'Nuestro Portafolio',
-    'portfolio.subtitle': 'Invertimos en empresas sólidas con modelos de negocio probados y potencial de crecimiento'
+    'portfolio.title': 'Nuestras Empresas del Portafolio',
+    'portfolio.subtitle': 'Invertimos en empresas innovadoras que dan forma al futuro en tecnología, sostenibilidad y transformación digital.',
+    'portfolio.readMore': 'Leer más',
+    'portfolio.callToAction': '¿Eres una empresa innovadora que busca inversión?',
+    'portfolio.contactUs': 'Contáctanos',
+    
+    // Company descriptions
+    'company.wittra.description': 'Sistema innovador híbrido de ubicación en tiempo real para seguimiento de activos y datos de sensores que permite casos de uso previamente imposibles con el ROI más rápido del mercado. Wittra ofrece soluciones IoT para aplicaciones industriales con tecnología patentada en posicionamiento y redes mesh.',
+    'company.radioinnovation.description': 'Pionero sueco de telecomunicaciones que desarrolla conexiones 5G de próxima generación y soluciones 4G. Ayuda a los operadores móviles a reducir su costo total de propiedad con sistemas de antena únicos que mejoran dramáticamente la comunicación móvil.',
+    'company.westudents.description': 'La plataforma líder de Suecia para descuentos estudiantiles locales. Brinda a los estudiantes acceso a cientos de descuentos locales y nacionales a través de una identificación estudiantil digital con aplicación móvil dedicada.',
+    'company.navigare.description': 'Casas de vacaciones exclusivas con servicio de estándar hotelero y soluciones de gestión integral. Ofrece inversiones de estilo de vida en destinos únicos con propiedades vacacionales personalizadas de alta calidad.',
+    'company.3ngage.description': 'Gemelos digitales para ventas y capacitación. Permite a compradores y usuarios experimentar productos físicos en entornos digitales con simulaciones interactivas para ventas, capacitación y soporte.',
+    'company.nova.description': 'Red global que conecta a los individuos más talentosos del mundo, todos seleccionados basándose en méritos. Red profesional que conecta el mejor talento con las mejores oportunidades.',
+    'company.bucketpros.description': 'Range as a Service (RaaS) - el futuro de las operaciones de campos de golf. Ofrece sistemas completos de gestión de pelotas, equipamiento de campo y servicios innovadores para llevar las instalaciones de golf al siguiente nivel.',
+    
+    // About/Investment Philosophy (for AboutSection.tsx)
+    'about.philosophy.title': 'Filosofía de Inversión',
+    'about.philosophy.desc1': 'NordSpan construye un portafolio de inversiones a largo plazo con perfil de riesgo equilibrado combinando préstamos directos generadores de flujo de caja con inversiones de crecimiento monitoreadas.',
+    'about.philosophy.desc2': 'Nuestra estrategia proporciona una distribución anual basada en flujo de caja objetivo del 6%, mientras mantenemos el potencial de crecimiento de las inversiones de capital.',
+    'about.philosophy.desc3': 'El fondo emite hasta 100,000 acciones preferentes a 100 SEK con distribuciones trimestrales del 8% por año, de las cuales el 6% se evalúa como basado en flujo de caja.',
+    'about.philosophy.point1': 'Préstamos directos garantizados con retorno objetivo del 12%',
+    'about.philosophy.point2': 'Empresas de crecimiento monitoreadas (mínimo 12 meses)',
+    'about.philosophy.point3': 'Informes y valoración trimestrales',
+    'about.philosophy.point4': 'Cotización planificada en NGM Nordic AIF 2026',
+    'about.contact.title': 'Contáctanos',
+    'about.contact.subtitle': 'Contacta a nuestro equipo para más información',
+    'about.contact.phone': 'Teléfono',
+    'about.contact.email': 'Correo electrónico',
+    'about.contact.office': 'Oficina',
+    'about.contact.cta': 'Reservar una reunión'
   }
 };
 
