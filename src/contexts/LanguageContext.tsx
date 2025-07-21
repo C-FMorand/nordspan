@@ -135,7 +135,7 @@ const translations = {
     // Hero Section
     'hero.title.part1': 'Alternative investment with',
     'hero.title.part2': 'balanced risk',
-    'hero.subtitle': 'NordSpan is an alternative investment fund that combines secured direct loans with investments in growth companies to combine stable returns with high potential value appreciation.',
+    'hero.subtitle': 'Stability meets growth. NordSpan combines direct returns from secured loans with the potential of growth companies – in a fund-like structure optimized for business-driven investors.',
     'hero.cta.invest': 'I want to invest',
     'hero.cta.learn': 'Learn more about the fund',
     
@@ -248,7 +248,7 @@ const translations = {
     // Hero Section
     'hero.title.part1': 'Inversión alternativa con',
     'hero.title.part2': 'riesgo equilibrado',
-    'hero.subtitle': 'NordSpan es un fondo de inversión alternativa que combina préstamos directos garantizados con inversiones en empresas de crecimiento para combinar retornos estables con alto potencial de revalorización.',
+    'hero.subtitle': 'La estabilidad se encuentra con el crecimiento. NordSpan combina retornos directos de préstamos garantizados con el potencial de empresas de crecimiento – en una estructura similar a un fondo optimizada para inversores empresariales.',
     'hero.cta.invest': 'Quiero invertir',
     'hero.cta.learn': 'Conoce más sobre el fondo',
     
