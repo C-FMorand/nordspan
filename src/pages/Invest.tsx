@@ -45,6 +45,40 @@ export const Invest = () => {
           </p>
         </div>
 
+        {/* Geographic Focus Section */}
+        <div className="mb-16">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-display text-3xl md:text-4xl font-bold mb-8 text-center text-foreground">
+              {t('invest.geography.title')}
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+              {t('invest.geography.intro')}
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-4">
+                <h3 className="text-2xl font-semibold text-foreground flex items-center gap-3">
+                  <span className="text-primary">🇸🇪</span>
+                  {t('invest.geography.nordic.title')}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {t('invest.geography.nordic.description')}
+                </p>
+              </div>
+              
+              <div className="space-y-4">
+                <h3 className="text-2xl font-semibold text-foreground flex items-center gap-3">
+                  <span className="text-primary">🇪🇸</span>
+                  {t('invest.geography.spain.title')}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {t('invest.geography.spain.description')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Features Grid */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           {features.map((feature, index) => (

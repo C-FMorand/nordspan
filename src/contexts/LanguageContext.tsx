@@ -114,7 +114,15 @@ const translations = {
     'invest.cta.title': 'Håll dig informerad och engagera dig',
     'invest.cta.description': 'Vi inbjuder alla investerare att registrera sig för uppdateringar och information när vi närmar oss lanseringen av vår nya fond.',
     'invest.cta.contact': 'Boka ett möte',
-    'invest.cta.learn': 'Läs mer om fonden'
+    'invest.cta.learn': 'Läs mer om fonden',
+    
+    // Geographic Focus
+    'invest.geography.title': 'Varför Norden och Spanien?',
+    'invest.geography.intro': 'NordSpans investeringsfokus följer den geografiska täckning där vår förvaltare och affärspartner, Cooach, är aktiv. Just nu omfattar detta två av Europas mest dynamiska och möjlighetsrika regioner: Norden och Spanien.',
+    'invest.geography.nordic.title': 'Norden – stabilitet, transparens och digital spets',
+    'invest.geography.nordic.description': 'De nordiska länderna erbjuder ett unikt investeringsklimat med hög rättssäkerhet, transparens och en mogen företagskultur. Regionen är känd för sitt digitala ledarskap, hållbarhetsfokus och starka innovationskraft. Nordiska bolag har ofta god tillgång till kapital, men det finns ett växande behov av smartare tillväxtkapital i tidiga expansionsfaser – något NordSpan är positionerat att tillgodose.',
+    'invest.geography.spain.title': 'Spanien – tillväxt, transformation och entreprenörsanda',
+    'invest.geography.spain.description': 'Samtidigt sker en snabb transformation i södra Europa – särskilt i Spanien, där ett nytt entreprenörsekosystem växer fram med stöd av digitalisering, EU-finansierade satsningar och internationell talang. Regionen Andalusien, inklusive Málaga och Sevilla, har blivit nav för tech-startups, greentech och internationella bolagsetableringar. Med lägre värderingar än norra Europa och stark utvecklingspotential erbjuder spanska bolag en attraktiv riskjusterad investeringsmöjlighet.'
   },
   
   en: {
@@ -219,7 +227,15 @@ const translations = {
     'invest.cta.title': 'Stay informed and get involved',
     'invest.cta.description': 'We invite all investors to sign up for updates and information as we move toward launching our new fund.',
     'invest.cta.contact': 'Book a meeting',
-    'invest.cta.learn': 'Learn more about the fund'
+    'invest.cta.learn': 'Learn more about the fund',
+    
+    // Geographic Focus
+    'invest.geography.title': 'Why Nordic and Spain?',
+    'invest.geography.intro': 'NordSpan\'s investment focus follows the geographical coverage where our manager and business partner, Cooach, is active. Currently, this includes two of Europe\'s most dynamic and opportunity-rich regions: the Nordic countries and Spain.',
+    'invest.geography.nordic.title': 'Nordic – stability, transparency and digital edge',
+    'invest.geography.nordic.description': 'The Nordic countries offer a unique investment climate with high legal security, transparency and a mature business culture. The region is known for its digital leadership, sustainability focus and strong innovation capacity. Nordic companies often have good access to capital, but there is a growing need for smarter growth capital in early expansion phases – something NordSpan is positioned to provide.',
+    'invest.geography.spain.title': 'Spain – growth, transformation and entrepreneurial spirit',
+    'invest.geography.spain.description': 'Meanwhile, a rapid transformation is taking place in southern Europe – particularly in Spain, where a new entrepreneurial ecosystem is emerging supported by digitalization, EU-funded initiatives and international talent. The Andalusia region, including Málaga and Seville, has become a hub for tech startups, greentech and international company establishments. With lower valuations than northern Europe and strong development potential, Spanish companies offer an attractive risk-adjusted investment opportunity.'
   },
   
   es: {
@@ -324,7 +340,15 @@ const translations = {
     'invest.cta.title': 'Mantente informado y participa',
     'invest.cta.description': 'Invitamos a todos los inversores a registrarse para recibir actualizaciones e información mientras nos acercamos al lanzamiento de nuestro nuevo fondo.',
     'invest.cta.contact': 'Reservar una reunión',
-    'invest.cta.learn': 'Conoce más sobre el fondo'
+    'invest.cta.learn': 'Conoce más sobre el fondo',
+    
+    // Geographic Focus
+    'invest.geography.title': '¿Por qué los países nórdicos y España?',
+    'invest.geography.intro': 'El enfoque de inversión de NordSpan sigue la cobertura geográfica donde nuestro administrador y socio comercial, Cooach, está activo. Actualmente, esto incluye dos de las regiones más dinámicas y ricas en oportunidades de Europa: los países nórdicos y España.',
+    'invest.geography.nordic.title': 'Nórdicos – estabilidad, transparencia y ventaja digital',
+    'invest.geography.nordic.description': 'Los países nórdicos ofrecen un clima de inversión único con alta seguridad jurídica, transparencia y una cultura empresarial madura. La región es conocida por su liderazgo digital, enfoque en sostenibilidad y fuerte capacidad de innovación. Las empresas nórdicas a menudo tienen buen acceso al capital, pero hay una necesidad creciente de capital de crecimiento más inteligente en las fases de expansión temprana – algo que NordSpan está posicionado para proporcionar.',
+    'invest.geography.spain.title': 'España – crecimiento, transformación y espíritu emprendedor',
+    'invest.geography.spain.description': 'Mientras tanto, está teniendo lugar una rápida transformación en el sur de Europa, particularmente en España, donde está surgiendo un nuevo ecosistema empresarial apoyado por la digitalización, iniciativas financiadas por la UE y talento internacional. La región de Andalucía, incluyendo Málaga y Sevilla, se ha convertido en un centro para startups tecnológicas, tecnología verde y establecimientos de empresas internacionales. Con valoraciones más bajas que el norte de Europa y fuerte potencial de desarrollo, las empresas españolas ofrecen una oportunidad de inversión atractiva ajustada al riesgo.'
   }
 };
 
