@@ -1,7 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Navigation } from "@/components/Navigation";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Team = () => {
+  const { t } = useLanguage();
+  
   const teamMembers = [
     {
       name: "Carl-Fredrik Morander",
@@ -43,11 +46,10 @@ export const Team = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-light mb-8">
-              Our <span className="font-bold">team</span>
+              {t('team.title')}
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              NordSpan is driven by an experienced team with deep knowledge in investments, 
-              due diligence and portfolio management.
+              {t('team.subtitle')}
             </p>
           </div>
 

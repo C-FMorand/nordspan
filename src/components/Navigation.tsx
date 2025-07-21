@@ -54,6 +54,9 @@ export const Navigation = () => {
           <Link to="/team" className="text-white hover:text-warm-accent transition-colors">
             {t('nav.team')}
           </Link>
+          <Link to="/performance" className="text-white hover:text-warm-accent transition-colors">
+            Performance
+          </Link>
           
           {/* Language Switcher */}
           <DropdownMenu>
@@ -77,8 +80,8 @@ export const Navigation = () => {
             </DropdownMenuContent>
           </DropdownMenu>
           
-          <Button variant="dramatic-outline" size="sm">
-            {t('nav.contact')}
+          <Button variant="dramatic-outline" size="sm" asChild>
+            <Link to="/contact">{t('nav.contact')}</Link>
           </Button>
         </div>
       </div>
@@ -108,6 +111,13 @@ export const Navigation = () => {
             >
               {t('nav.team')}
             </Link>
+            <Link 
+              to="/performance" 
+              className="text-white hover:text-warm-accent transition-colors py-2"
+              onClick={() => setIsOpen(false)}
+            >
+              Performance
+            </Link>
             
             {/* Mobile Language Switcher */}
             <div className="pt-4 border-t border-white/20">
@@ -128,8 +138,8 @@ export const Navigation = () => {
               </div>
             </div>
             
-            <Button variant="dramatic-outline" size="sm" className="mt-4">
-              {t('nav.contact')}
+            <Button variant="dramatic-outline" size="sm" className="mt-4" asChild>
+              <Link to="/contact" onClick={() => setIsOpen(false)}>{t('nav.contact')}</Link>
             </Button>
           </div>
         </div>

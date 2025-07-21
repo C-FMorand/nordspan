@@ -8,6 +8,8 @@ import { Team } from "./pages/Team";
 import { Invest } from "./pages/Invest";
 import { About } from "./pages/About";
 import { Investeringar } from "./pages/Investeringar";
+import { Contact } from "./pages/Contact";
+import { Performance } from "./pages/Performance";
 import NotFound from "./pages/NotFound";
 import { LanguageProvider } from "./contexts/LanguageContext";
 
@@ -25,6 +27,8 @@ const App = () => (
             <Route path="/invest" element={<Invest />} />
             <Route path="/about" element={<About />} />
             <Route path="/team" element={<Team />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/performance" element={<Performance />} />
             <Route path="/investeringar" element={<Investeringar />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
