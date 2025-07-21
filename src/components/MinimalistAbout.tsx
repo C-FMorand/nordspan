@@ -13,14 +13,13 @@ export const MinimalistAbout = () => {
             </div>
             
             <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-medium mb-8 leading-tight tracking-tight">
-              NordSpan combines secured direct loans with 
-              <span className="block italic text-warm-accent">strategic investments</span>
-              in growth companies
+              {t('about.title')} 
+              <span className="block italic text-warm-accent">{t('about.title.highlight')}</span>
+              {t('about.title.end')}
             </h2>
             
             <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-4xl mx-auto font-light">
-              Our investment strategy creates cash flow-based returns while 
-              maintaining upside from equity investments with reduced risk and professional excellence.
+              {t('about.description')}
             </p>
           </div>
 
@@ -30,11 +29,10 @@ export const MinimalistAbout = () => {
                 <h3 className="font-display text-3xl font-semibold mb-4 group-hover:text-primary transition-colors">
                   {t('about.loans.title')}
                 </h3>
-                <div className="text-warm-accent font-semibold text-lg">50% of portfolio</div>
+                <div className="text-warm-accent font-semibold text-lg">{t('about.loans.portfolio')}</div>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Secured direct loans with target returns of 12% annually. 
-                Creates stable cash flows for quarterly distributions with professional oversight.
+                {t('about.loans.description')}
               </p>
             </div>
 
@@ -43,11 +41,10 @@ export const MinimalistAbout = () => {
                 <h3 className="font-display text-3xl font-semibold mb-4 group-hover:text-primary transition-colors">
                   {t('about.equity.title')}
                 </h3>
-                <div className="text-warm-accent font-semibold text-lg">50% of portfolio</div>
+                <div className="text-warm-accent font-semibold text-lg">{t('about.equity.portfolio')}</div>
               </div>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Investments in private growth companies that we have monitored 
-                for at least 12 months for reduced risk and strategic growth potential.
+                {t('about.equity.description')}
               </p>
             </div>
           </div>

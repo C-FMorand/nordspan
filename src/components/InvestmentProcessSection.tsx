@@ -25,7 +25,7 @@ export const InvestmentProcessSection = () => {
                 <DollarSign className="w-8 h-8 text-primary" />
               </div>
               <CardTitle className="text-3xl font-semibold mb-2">{t('about.loans.title')}</CardTitle>
-              <p className="text-warm-accent font-semibold text-lg">50% of portfolio</p>
+              <p className="text-warm-accent font-semibold text-lg">{t('about.loans.portfolio')}</p>
             </CardHeader>
             
             <CardContent className="space-y-6">
@@ -33,24 +33,24 @@ export const InvestmentProcessSection = () => {
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold mb-1">Rigorous Due Diligence</h4>
-                    <p className="text-muted-foreground">Comprehensive analysis of borrower creditworthiness and business fundamentals</p>
+                    <h4 className="font-semibold mb-1">{t('process.loans.step1.title')}</h4>
+                    <p className="text-muted-foreground">{t('process.loans.step1.desc')}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold mb-1">Structured Terms</h4>
-                    <p className="text-muted-foreground">Tailored loan structures with competitive rates and flexible repayment terms</p>
+                    <h4 className="font-semibold mb-1">{t('process.loans.step2.title')}</h4>
+                    <p className="text-muted-foreground">{t('process.loans.step2.desc')}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold mb-1">Active Monitoring</h4>
-                    <p className="text-muted-foreground">Ongoing relationship management and performance tracking throughout the loan term</p>
+                    <h4 className="font-semibold mb-1">{t('process.loans.step3.title')}</h4>
+                    <p className="text-muted-foreground">{t('process.loans.step3.desc')}</p>
                   </div>
                 </div>
               </div>
@@ -58,17 +58,17 @@ export const InvestmentProcessSection = () => {
               <div className="bg-muted/30 p-4 rounded-lg">
                 <div className="flex items-center space-x-2 mb-2">
                   <Clock className="w-4 h-4 text-primary" />
-                  <span className="font-semibold">Typical Timeline</span>
+                  <span className="font-semibold">{t('process.loans.timeline')}</span>
                 </div>
-                <p className="text-sm text-muted-foreground">4-8 weeks from application to funding</p>
+                <p className="text-sm text-muted-foreground">{t('process.loans.timeline.desc')}</p>
               </div>
 
               <div className="bg-muted/30 p-4 rounded-lg">
                 <div className="flex items-center space-x-2 mb-2">
                   <Shield className="w-4 h-4 text-primary" />
-                  <span className="font-semibold">Risk Management</span>
+                  <span className="font-semibold">{t('process.loans.risk')}</span>
                 </div>
-                <p className="text-sm text-muted-foreground">Secured positions with comprehensive collateral analysis</p>
+                <p className="text-sm text-muted-foreground">{t('process.loans.risk.desc')}</p>
               </div>
 
               <Button className="w-full mt-6 group" size="lg">
@@ -85,7 +85,7 @@ export const InvestmentProcessSection = () => {
                 <TrendingUp className="w-8 h-8 text-primary" />
               </div>
               <CardTitle className="text-3xl font-semibold mb-2">{t('about.equity.title')}</CardTitle>
-              <p className="text-warm-accent font-semibold text-lg">50% of portfolio</p>
+              <p className="text-warm-accent font-semibold text-lg">{t('about.equity.portfolio')}</p>
             </CardHeader>
             
             <CardContent className="space-y-6">
@@ -93,24 +93,24 @@ export const InvestmentProcessSection = () => {
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold mb-1">Strategic Sourcing</h4>
-                    <p className="text-muted-foreground">Identifying high-potential companies with strong growth prospects and market positions</p>
+                    <h4 className="font-semibold mb-1">{t('process.equity.step1.title')}</h4>
+                    <p className="text-muted-foreground">{t('process.equity.step1.desc')}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold mb-1">Value Creation</h4>
-                    <p className="text-muted-foreground">Active partnership providing strategic guidance, operational expertise, and network access</p>
+                    <h4 className="font-semibold mb-1">{t('process.equity.step2.title')}</h4>
+                    <p className="text-muted-foreground">{t('process.equity.step2.desc')}</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold mb-1">Exit Strategy</h4>
-                    <p className="text-muted-foreground">Planned value realization through strategic sales, IPOs, or management buyouts</p>
+                    <h4 className="font-semibold mb-1">{t('process.equity.step3.title')}</h4>
+                    <p className="text-muted-foreground">{t('process.equity.step3.desc')}</p>
                   </div>
                 </div>
               </div>
@@ -118,17 +118,17 @@ export const InvestmentProcessSection = () => {
               <div className="bg-muted/30 p-4 rounded-lg">
                 <div className="flex items-center space-x-2 mb-2">
                   <Target className="w-4 h-4 text-primary" />
-                  <span className="font-semibold">Investment Focus</span>
+                  <span className="font-semibold">{t('process.equity.focus')}</span>
                 </div>
-                <p className="text-sm text-muted-foreground">Mid-market companies with €10M-€100M revenue</p>
+                <p className="text-sm text-muted-foreground">{t('process.equity.focus.desc')}</p>
               </div>
 
               <div className="bg-muted/30 p-4 rounded-lg">
                 <div className="flex items-center space-x-2 mb-2">
                   <Clock className="w-4 h-4 text-primary" />
-                  <span className="font-semibold">Investment Horizon</span>
+                  <span className="font-semibold">{t('process.equity.horizon')}</span>
                 </div>
-                <p className="text-sm text-muted-foreground">3-7 years with active value creation</p>
+                <p className="text-sm text-muted-foreground">{t('process.equity.horizon.desc')}</p>
               </div>
 
               <Button className="w-full mt-6 group" size="lg">
@@ -141,10 +141,10 @@ export const InvestmentProcessSection = () => {
 
         <div className="text-center mt-16">
           <p className="text-lg text-muted-foreground mb-6">
-            Ready to discuss your investment needs?
+            {t('process.consultation')}
           </p>
           <Button variant="outline" size="lg" className="px-8">
-            Schedule a Consultation
+            {t('process.consultation.cta')}
           </Button>
         </div>
       </div>
