@@ -1,17 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, TrendingUp, DollarSign, Clock, Shield, Target } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const InvestmentProcessSection = () => {
+  const { t } = useLanguage();
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-            Our Investment Process
+            {t('process.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover how we create value through our carefully structured investment approaches
+            {t('process.subtitle')}
           </p>
         </div>
 
@@ -22,7 +24,7 @@ export const InvestmentProcessSection = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                 <DollarSign className="w-8 h-8 text-primary" />
               </div>
-              <CardTitle className="text-3xl font-semibold mb-2">Direct Loans</CardTitle>
+              <CardTitle className="text-3xl font-semibold mb-2">{t('about.loans.title')}</CardTitle>
               <p className="text-warm-accent font-semibold text-lg">50% of portfolio</p>
             </CardHeader>
             
@@ -70,7 +72,7 @@ export const InvestmentProcessSection = () => {
               </div>
 
               <Button className="w-full mt-6 group" size="lg">
-                Learn About Direct Loans
+                {t('process.loans.cta')}
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </CardContent>
@@ -82,7 +84,7 @@ export const InvestmentProcessSection = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
                 <TrendingUp className="w-8 h-8 text-primary" />
               </div>
-              <CardTitle className="text-3xl font-semibold mb-2">Equity Investments</CardTitle>
+              <CardTitle className="text-3xl font-semibold mb-2">{t('about.equity.title')}</CardTitle>
               <p className="text-warm-accent font-semibold text-lg">50% of portfolio</p>
             </CardHeader>
             
@@ -130,7 +132,7 @@ export const InvestmentProcessSection = () => {
               </div>
 
               <Button className="w-full mt-6 group" size="lg">
-                Explore Equity Opportunities
+                {t('process.equity.cta')}
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </CardContent>

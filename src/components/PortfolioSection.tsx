@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { useLanguage } from "@/contexts/LanguageContext";
 import wittraLogo from "@/assets/wittra-logo.png";
 import engageLogo from "@/assets/3ngage-logo.png";
 import novaLogo from "@/assets/nova-logo.svg";
@@ -68,6 +69,7 @@ const portfolioCompanies = [
 ];
 
 export const PortfolioSection = () => {
+  const { t } = useLanguage();
   return (
     <section className="py-section bg-gradient-to-b from-background to-muted/30">
       <div className="container mx-auto px-6">

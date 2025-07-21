@@ -2,8 +2,10 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import dramaticLandscape from "@/assets/dramatic-landscape.jpg";
 import { Navigation } from "./Navigation";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const HeroSection = () => {
+  const { t } = useLanguage();
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <Navigation />
@@ -21,23 +23,22 @@ export const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium mb-8 leading-tight tracking-tight animate-fade-in">
-            Alternative investment with
-            <span className="block font-bold italic text-warm-accent">balanced risk</span>
+            {t('hero.title.part1')}
+            <span className="block font-bold italic text-warm-accent">{t('hero.title.part2')}</span>
           </h1>
           
           <div className="max-w-3xl mx-auto mb-16 animate-fade-in">
             <p className="text-lg md:text-xl font-light opacity-90 leading-relaxed text-center">
-              NordSpan is an alternative investment fund that combines secured direct loans 
-              with investments in growth companies for stable returns with professional excellence.
+              {t('hero.subtitle')}
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
             <Button variant="default" size="lg" className="min-w-56 h-14 text-lg font-medium">
-              I want to invest
+              {t('hero.cta.invest')}
             </Button>
             <Button variant="dramatic-outline" size="lg" className="min-w-56 h-14 text-lg font-medium">
-              Learn more about the fund
+              {t('hero.cta.learn')}
             </Button>
           </div>
         </div>

@@ -1,10 +1,24 @@
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useLanguage, Language } from "@/contexts/LanguageContext";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { language, setLanguage, t } = useLanguage();
+
+  const languages: { code: Language; name: string; flag: string }[] = [
+    { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
+    { code: 'en', name: 'English', flag: '🇺🇸' },
+    { code: 'es', name: 'Español', flag: '🇪🇸' },
+  ];
 
   return (
     <nav className="absolute top-0 left-0 right-0 z-50 p-6">
@@ -32,16 +46,39 @@ export const Navigation = () => {
         {/* Desktop navigation */}
         <div className="hidden md:flex items-center space-x-8">
           <Link to="/" className="text-white hover:text-warm-accent transition-colors">
-            Home
+            {t('nav.home')}
           </Link>
           <Link to="/investeringar" className="text-white hover:text-warm-accent transition-colors">
-            Investments
+            {t('nav.investments')}
           </Link>
           <Link to="/team" className="text-white hover:text-warm-accent transition-colors">
-            Team
+            {t('nav.team')}
           </Link>
+          
+          {/* Language Switcher */}
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="sm" className="text-white hover:bg-white/20">
+                <Globe className="w-4 h-4 mr-2" />
+                {languages.find(lang => lang.code === language)?.flag}
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+              {languages.map((lang) => (
+                <DropdownMenuItem 
+                  key={lang.code}
+                  onClick={() => setLanguage(lang.code)}
+                  className={language === lang.code ? "bg-muted" : ""}
+                >
+                  <span className="mr-2">{lang.flag}</span>
+                  {lang.name}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+          
           <Button variant="dramatic-outline" size="sm">
-            Contact
+            {t('nav.contact')}
           </Button>
         </div>
       </div>
@@ -55,24 +92,44 @@ export const Navigation = () => {
               className="text-white hover:text-warm-accent transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
-              Home
+              {t('nav.home')}
             </Link>
             <Link 
               to="/investeringar" 
               className="text-white hover:text-warm-accent transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
-              Investments
+              {t('nav.investments')}
             </Link>
             <Link 
               to="/team" 
               className="text-white hover:text-warm-accent transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
-              Team
+              {t('nav.team')}
             </Link>
+            
+            {/* Mobile Language Switcher */}
+            <div className="pt-4 border-t border-white/20">
+              <p className="text-white/70 text-sm mb-2">Language / Språk / Idioma</p>
+              <div className="flex gap-2">
+                {languages.map((lang) => (
+                  <Button
+                    key={lang.code}
+                    variant={language === lang.code ? "secondary" : "ghost"}
+                    size="sm"
+                    onClick={() => setLanguage(lang.code)}
+                    className="text-white hover:bg-white/20"
+                  >
+                    <span className="mr-1">{lang.flag}</span>
+                    {lang.code.toUpperCase()}
+                  </Button>
+                ))}
+              </div>
+            </div>
+            
             <Button variant="dramatic-outline" size="sm" className="mt-4">
-              Contact
+              {t('nav.contact')}
             </Button>
           </div>
         </div>
