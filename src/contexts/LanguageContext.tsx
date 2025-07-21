@@ -24,7 +24,7 @@ const translations = {
     'hero.title.part2': 'balanserad risk',
     'hero.subtitle': 'Stabilitet möter tillväxt. NordSpan kombinerar direktavkastning från säkerställda lån med potentialen i tillväxtbolag – i en fondliknande struktur optimerad för affärsdrivna investerare.',
     'hero.cta.invest': 'Jag vill investera',
-    'hero.cta.learn': 'Läs mer om fonden',
+    'hero.cta.learn': 'Detta är NordSpan',
     
     // About Section
     'about.title': 'NordSpan kombinerar säkrade direktlån med',
@@ -137,7 +137,7 @@ const translations = {
     'hero.title.part2': 'balanced risk',
     'hero.subtitle': 'Stability meets growth. NordSpan combines direct returns from secured loans with the potential of growth companies – in a fund-like structure optimized for business-driven investors.',
     'hero.cta.invest': 'I want to invest',
-    'hero.cta.learn': 'Learn more about the fund',
+    'hero.cta.learn': 'This is NordSpan',
     
     // About Section
     'about.title': 'NordSpan combines secured direct loans with',
@@ -250,7 +250,7 @@ const translations = {
     'hero.title.part2': 'riesgo equilibrado',
     'hero.subtitle': 'La estabilidad se encuentra con el crecimiento. NordSpan combina retornos directos de préstamos garantizados con el potencial de empresas de crecimiento – en una estructura similar a un fondo optimizada para inversores empresariales.',
     'hero.cta.invest': 'Quiero invertir',
-    'hero.cta.learn': 'Conoce más sobre el fondo',
+    'hero.cta.learn': 'Esto es NordSpan',
     
     // About Section
     'about.title': 'NordSpan combina préstamos directos garantizados con',
