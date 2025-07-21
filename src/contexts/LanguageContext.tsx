@@ -98,7 +98,23 @@ const translations = {
     'about.contact.phone': 'Telefon',
     'about.contact.email': 'E-post',
     'about.contact.office': 'Kontor',
-    'about.contact.cta': 'Boka ett möte'
+    'about.contact.cta': 'Boka ett möte',
+
+    // Investment Page
+    'invest.title': 'Investera med NordSpan',
+    'invest.subtitle': 'Vi erbjuder exklusiva investeringsmöjligheter genom att upprätthålla daglig kontakt med de företag vi arbetar med. Denna pågående interaktion gör det möjligt för oss att genomföra kontinuerlig due diligence.',
+    'invest.feature1.title': 'Kontinuerlig due diligence',
+    'invest.feature1.description': 'Vi upprätthåller daglig kontakt med våra portföljföretag, vilket gör det möjligt för oss att genomföra kontinuerlig due diligence och säkerställa grundlig förståelse av deras verksamhet, finansiella hälsa och tillväxtpotential.',
+    'invest.feature2.title': 'Djup kunskap om portföljföretag',
+    'invest.feature2.description': 'Vi fokuserar våra investeringsmöjligheter på företag vi redan arbetat omfattande med. Detta innebär att vi känner dem väl och kan erbjuda insikter som andra kanske inte har.',
+    'invest.feature3.title': 'Icke-utspädande kapital',
+    'invest.feature3.description': 'Vår fond riktar sig mot icke-utspädande kapital genom skuld- och hybridinvesteringar, vilket ger nödvändigt finansiellt stöd för tillväxt utan att späda ut ägarandelen.',
+    'invest.feature4.title': 'Hög tillväxtpotential',
+    'invest.feature4.description': 'Genom att investera i innovativa, tillväxtorienterade företag syftar NordSpan till att generera attraktiv avkastning. Vår strategiska insikt kombinerat med robust finansiellt stöd gör det möjligt för dessa företag att lyckas.',
+    'invest.cta.title': 'Håll dig informerad och engagera dig',
+    'invest.cta.description': 'Vi inbjuder alla investerare att registrera sig för uppdateringar och information när vi närmar oss lanseringen av vår nya fond.',
+    'invest.cta.contact': 'Boka ett möte',
+    'invest.cta.learn': 'Läs mer om fonden'
   },
   
   en: {
@@ -187,7 +203,23 @@ const translations = {
     'about.contact.phone': 'Phone',
     'about.contact.email': 'Email',
     'about.contact.office': 'Office',
-    'about.contact.cta': 'Book a meeting'
+    'about.contact.cta': 'Book a meeting',
+
+    // Investment Page
+    'invest.title': 'Invest with NordSpan',
+    'invest.subtitle': 'We offer exclusive investment opportunities by maintaining daily engagement with the companies we work with. This ongoing interaction allows us to conduct continuous due diligence.',
+    'invest.feature1.title': 'Continuous due diligence',
+    'invest.feature1.description': 'We maintain daily engagement with our portfolio companies, allowing us to conduct continuous due diligence and ensure thorough understanding of their operations, financial health, and growth potential.',
+    'invest.feature2.title': 'Deep knowledge of portfolio companies',
+    'invest.feature2.description': 'We focus our investment opportunities on companies we have already worked with extensively. This means we know them well and can offer insights that others may not have.',
+    'invest.feature3.title': 'Non-dilutive capital',
+    'invest.feature3.description': 'Our fund targets non-dilutive capital through debt and hybrid investments, providing necessary financial support for growth without diluting shareholder equity.',
+    'invest.feature4.title': 'High growth potential',
+    'invest.feature4.description': 'By investing in innovative, growth-oriented companies, NordSpan aims to generate attractive returns. Our strategic insight combined with robust financial support enables these companies to succeed.',
+    'invest.cta.title': 'Stay informed and get involved',
+    'invest.cta.description': 'We invite all investors to sign up for updates and information as we move toward launching our new fund.',
+    'invest.cta.contact': 'Book a meeting',
+    'invest.cta.learn': 'Learn more about the fund'
   },
   
   es: {
@@ -276,7 +308,23 @@ const translations = {
     'about.contact.phone': 'Teléfono',
     'about.contact.email': 'Correo electrónico',
     'about.contact.office': 'Oficina',
-    'about.contact.cta': 'Reservar una reunión'
+    'about.contact.cta': 'Reservar una reunión',
+
+    // Investment Page
+    'invest.title': 'Invierte con NordSpan',
+    'invest.subtitle': 'Ofrecemos oportunidades de inversión exclusivas manteniendo compromiso diario con las empresas con las que trabajamos. Esta interacción continua nos permite realizar due diligence continuo.',
+    'invest.feature1.title': 'Due diligence continuo',
+    'invest.feature1.description': 'Mantenemos compromiso diario con nuestras empresas de cartera, permitiéndonos realizar due diligence continuo y asegurar comprensión profunda de sus operaciones, salud financiera y potencial de crecimiento.',
+    'invest.feature2.title': 'Conocimiento profundo de empresas de cartera',
+    'invest.feature2.description': 'Enfocamos nuestras oportunidades de inversión en empresas con las que ya hemos trabajado extensivamente. Esto significa que las conocemos bien y podemos ofrecer insights que otros no tienen.',
+    'invest.feature3.title': 'Capital no dilutivo',
+    'invest.feature3.description': 'Nuestro fondo apunta a capital no dilutivo a través de inversiones de deuda e híbridas, proporcionando apoyo financiero necesario para el crecimiento sin diluir el capital accionario.',
+    'invest.feature4.title': 'Alto potencial de crecimiento',
+    'invest.feature4.description': 'Al invertir en empresas innovadoras orientadas al crecimiento, NordSpan busca generar retornos atractivos. Nuestro insight estratégico combinado con apoyo financiero robusto permite que estas empresas tengan éxito.',
+    'invest.cta.title': 'Mantente informado y participa',
+    'invest.cta.description': 'Invitamos a todos los inversores a registrarse para recibir actualizaciones e información mientras nos acercamos al lanzamiento de nuestro nuevo fondo.',
+    'invest.cta.contact': 'Reservar una reunión',
+    'invest.cta.learn': 'Conoce más sobre el fondo'
   }
 };
 

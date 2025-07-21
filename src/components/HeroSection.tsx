@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import dramaticLandscape from "@/assets/dramatic-landscape.jpg";
 import { Navigation } from "./Navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -34,8 +35,8 @@ export const HeroSection = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
-            <Button variant="default" size="lg" className="min-w-56 h-14 text-lg font-medium">
-              {t('hero.cta.invest')}
+            <Button asChild variant="default" size="lg" className="min-w-56 h-14 text-lg font-medium">
+              <Link to="/invest">{t('hero.cta.invest')}</Link>
             </Button>
             <Button variant="dramatic-outline" size="lg" className="min-w-56 h-14 text-lg font-medium">
               {t('hero.cta.learn')}
