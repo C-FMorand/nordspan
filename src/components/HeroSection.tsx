@@ -38,8 +38,8 @@ export const HeroSection = () => {
             <Button asChild variant="default" size="lg" className="min-w-56 h-14 text-lg font-medium">
               <Link to="/invest">{t('hero.cta.invest')}</Link>
             </Button>
-            <Button variant="dramatic-outline" size="lg" className="min-w-56 h-14 text-lg font-medium">
-              {t('hero.cta.learn')}
+            <Button asChild variant="dramatic-outline" size="lg" className="min-w-56 h-14 text-lg font-medium">
+              <Link to="/about">{t('hero.cta.learn')}</Link>
             </Button>
           </div>
         </div>

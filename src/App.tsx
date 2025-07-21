@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import { Team } from "./pages/Team";
 import { Invest } from "./pages/Invest";
+import { About } from "./pages/About";
 import { Investeringar } from "./pages/Investeringar";
 import NotFound from "./pages/NotFound";
 import { LanguageProvider } from "./contexts/LanguageContext";
@@ -22,6 +23,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/invest" element={<Invest />} />
+            <Route path="/about" element={<About />} />
             <Route path="/team" element={<Team />} />
             <Route path="/investeringar" element={<Investeringar />} />
             <Route path="*" element={<NotFound />} />
