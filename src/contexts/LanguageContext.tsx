@@ -20,8 +20,8 @@ const translations = {
     'nav.contact': 'Kontakt',
     
     // Hero Section
-    'hero.title.part1': 'Alternativ investering med',
-    'hero.title.part2': 'balanserad risk',
+    'hero.title.part1': 'Investeringar i tillväxtbolag',
+    'hero.title.part2': 'i tidig fas',
     'hero.subtitle': 'Stabilitet möter tillväxt. NordSpan kombinerar direktavkastning från säkerställda lån med potentialen i tillväxtbolag – i en fondliknande struktur optimerad för affärsdrivna investerare.',
     'hero.cta.invest': 'Jag vill investera',
     'hero.cta.learn': 'Detta är NordSpan',
