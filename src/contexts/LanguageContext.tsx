@@ -76,7 +76,7 @@ const translations = {
     'performance.subtitle': 'NordSpan är ett nytt investeringsbolag som i etableringsfasen gjort mikroinvesteringar i sex svenska start ups. Nedan ser du bolagets målsättningar kommande tre år',
     'performance.metrics.returns.title': 'Årlig Avkastning',
     'performance.metrics.returns.description': 'Genomsnittlig årlig avkastning',
-    'performance.metrics.risk.title': 'Volatilitet',
+    'performance.metrics.risk.title': 'Avkastning lån',
     'performance.metrics.risk.description': 'Standardavvikelse på avkastning',
     'performance.metrics.target.title': 'Måluppfyllelse',
     'performance.metrics.target.description': 'Uppnådda investeringsmål',
