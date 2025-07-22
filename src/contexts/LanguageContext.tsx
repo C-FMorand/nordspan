@@ -27,7 +27,7 @@ const translations = {
     'hero.cta.learn': 'Detta är NordSpan',
     
     // About Page
-    'about.page.title': 'Detta är NordSpan',
+    'about.page.title': 'Investeringar i tillväxtbolag med balanserad risk',
     'about.page.paragraph1': 'NordSpan AB är ett nystartat investeringsbolag med en fondliknande struktur. Bolaget emitterar B-aktier till professionella investerare som söker en balanserad exponering mot tillväxtbolag i tidig fas. Genom att investera i en kombination av säkerställda direktlån och equity i väl genomlysta bolag kan risk och avkastning balanseras.',
     'about.page.paragraph2': 'NordSpan AB har en styrelse som utgör investeringskommitté. Förvaltningen av bolaget inklusive sourcing av investeringsmöjligheter, due diligence och framtagande av investeringsbeslut sker av Cooach Capital Partner AB som är en del av Cooach Group.',
     'about.page.paragraph3': 'NordSpan AB vänder sig idag till en begränsad krets av investerare som förvärvar nyemitterade B-aktier. A-aktierna ägs av Cooach Capital Partner AB.',
