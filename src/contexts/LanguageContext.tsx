@@ -202,8 +202,8 @@ const translations = {
     'nav.contact': 'Contact',
     
     // Hero Section
-    'hero.title.part1': 'Alternative investment with',
-    'hero.title.part2': 'balanced risk',
+    'hero.title.part1': 'Investments in early-stage',
+    'hero.title.part2': 'growth companies',
     'hero.subtitle': 'Stability meets growth. NordSpan combines direct returns from secured loans with the potential of growth companies – in a fund-like structure optimized for business-driven investors.',
     'hero.cta.invest': 'I want to invest',
     'hero.cta.learn': 'This is NordSpan',
@@ -384,8 +384,8 @@ const translations = {
     'nav.contact': 'Contacto',
     
     // Hero Section
-    'hero.title.part1': 'Inversión alternativa con',
-    'hero.title.part2': 'riesgo equilibrado',
+    'hero.title.part1': 'Inversiones en empresas',
+    'hero.title.part2': 'de crecimiento temprano',
     'hero.subtitle': 'La estabilidad se encuentra con el crecimiento. NordSpan combina retornos directos de préstamos garantizados con el potencial de empresas de crecimiento – en una estructura similar a un fondo optimizada para inversores empresariales.',
     'hero.cta.invest': 'Quiero invertir',
     'hero.cta.learn': 'Esto es NordSpan',
