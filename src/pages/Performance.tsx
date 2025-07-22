@@ -11,7 +11,7 @@ export const Performance = () => {
     {
       icon: TrendingUp,
       title: t('performance.metrics.returns.title'),
-      value: "12.4%",
+      value: "50%",
       description: t('performance.metrics.returns.description'),
       trend: "+2.1%"
     },
