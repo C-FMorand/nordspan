@@ -78,7 +78,7 @@ const translations = {
     'performance.metrics.returns.description': 'Genomsnittlig årlig avkastning',
     'performance.metrics.risk.title': 'Avkastning lån',
     'performance.metrics.risk.description': 'Standardavvikelse på avkastning',
-    'performance.metrics.target.title': 'Måluppfyllelse',
+    'performance.metrics.target.title': 'Mål kapitalresning 2025-2027',
     'performance.metrics.target.description': 'Uppnådda investeringsmål',
     'performance.metrics.aum.title': 'Förvaltat Kapital',
     'performance.metrics.aum.description': 'Assets under management',
