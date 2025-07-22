@@ -73,7 +73,7 @@ const translations = {
 
     // Performance Page
     'performance.title': 'Performance & Portfolio',
-    'performance.subtitle': 'Transparent rapportering av våra investeringsresultat och portföljutveckling för att säkerställa full insyn för våra investerare.',
+    'performance.subtitle': 'NordSpan är ett nytt investeringsbolag som i etableringsfasen gjort mikroinvesteringar i sex svenska start ups. Nedan ser du bolagets målsättningar kommande tre år',
     'performance.metrics.returns.title': 'Årlig Avkastning',
     'performance.metrics.returns.description': 'Genomsnittlig årlig avkastning',
     'performance.metrics.risk.title': 'Volatilitet',
