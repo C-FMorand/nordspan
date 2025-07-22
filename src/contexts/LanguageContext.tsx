@@ -101,10 +101,10 @@ const translations = {
     'about.title.end': 'i tillväxtföretag',
     'about.description': 'Vår investeringsstrategi skapar kassaflödesbaserade avkastningar samtidigt som vi behåller uppsida från aktieinvesteringar med reducerad risk och professionell excellens.',
     'about.loans.title': 'Direktlån',
-    'about.loans.portfolio': '50% av portföljen',
+    'about.loans.portfolio': '45-55% av portföljen',
     'about.loans.description': 'Säkrade direktlån med målavkastning på 12% årligen. Skapar stabila kassaflöden för kvartalsvisa utdelningar med professionell övervakning.',
     'about.equity.title': 'Aktieinvesteringar',
-    'about.equity.portfolio': '50% av portföljen',
+    'about.equity.portfolio': '45-55% av portföljen',
     'about.equity.description': 'Investeringar i privata tillväxtföretag som vi har övervakat i minst 12 månader för reducerad risk och strategisk tillväxtpotential.',
     
     // Investment Process
@@ -283,10 +283,10 @@ const translations = {
     'about.title.end': 'in growth companies',
     'about.description': 'Our investment strategy creates cash flow-based returns while maintaining upside from equity investments with reduced risk and professional excellence.',
     'about.loans.title': 'Direct Loans',
-    'about.loans.portfolio': '50% of portfolio',
+    'about.loans.portfolio': '45-55% of portfolio',
     'about.loans.description': 'Secured direct loans with target returns of 12% annually. Creates stable cash flows for quarterly distributions with professional oversight.',
     'about.equity.title': 'Equity Investments',
-    'about.equity.portfolio': '50% of portfolio',
+    'about.equity.portfolio': '45-55% of portfolio',
     'about.equity.description': 'Investments in private growth companies that we have monitored for at least 12 months for reduced risk and strategic growth potential.',
     
     // Investment Process
@@ -456,10 +456,10 @@ const translations = {
     'about.title.end': 'en empresas de crecimiento',
     'about.description': 'Nuestra estrategia de inversión crea retornos basados en flujo de caja mientras mantenemos ventajas de las inversiones de capital con riesgo reducido y excelencia profesional.',
     'about.loans.title': 'Préstamos Directos',
-    'about.loans.portfolio': '50% del portafolio',
+    'about.loans.portfolio': '45-55% del portafolio',
     'about.loans.description': 'Préstamos directos garantizados con retornos objetivo del 12% anual. Crea flujos de caja estables para distribuciones trimestrales con supervisión profesional.',
     'about.equity.title': 'Inversiones de Capital',
-    'about.equity.portfolio': '50% del portafolio',
+    'about.equity.portfolio': '45-55% del portafolio',
     'about.equity.description': 'Inversiones en empresas privadas de crecimiento que hemos monitoreado durante al menos 12 meses para reducir el riesgo y obtener potencial de crecimiento estratégico.',
     
     // Investment Process
