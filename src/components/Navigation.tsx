@@ -25,7 +25,7 @@ export const Navigation = () => {
       <div className="flex justify-between items-center">
         <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
           <img 
-            src="/lovable-uploads/c7938e9d-bda2-4e61-ad5a-58d723dd3ca1.png" 
+            src="/lovable-uploads/7a2a46f1-0d14-4819-be4f-9484af2fc460.png" 
             alt="Cooach Equity" 
             className="h-12 w-auto filter drop-shadow-lg"
             onError={(e) => console.log('Logo failed to load:', e)}
