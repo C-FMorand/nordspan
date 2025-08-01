@@ -26,7 +26,7 @@ export const Navigation = () => {
         <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
           <img 
             src="/lovable-uploads/044fd6d2-22a2-42e3-9d8c-9dafff52247d.png" 
-            alt="NordSpan" 
+            alt="Cooach Equity" 
             className="h-12 w-auto filter drop-shadow-lg"
             onError={(e) => console.log('Logo failed to load:', e)}
             onLoad={() => console.log('Logo loaded successfully')}

@@ -22,20 +22,20 @@ const translations = {
     // Hero Section
     'hero.title.part1': 'Investeringar i tillväxtbolag',
     'hero.title.part2': 'i tidig fas',
-    'hero.subtitle': 'Stabilitet möter tillväxt. NordSpan kombinerar direktavkastning från säkerställda lån med potentialen i tillväxtbolag – i en fondliknande struktur optimerad för affärsdrivna investerare.',
+    'hero.subtitle': 'Stabilitet möter tillväxt. Cooach Equity kombinerar direktavkastning från säkerställda lån med potentialen i tillväxtbolag – i en fondliknande struktur optimerad för affärsdrivna investerare.',
     'hero.cta.invest': 'Jag vill investera',
-    'hero.cta.learn': 'Detta är NordSpan',
+    'hero.cta.learn': 'Detta är Cooach Equity',
     
     // About Page
     'about.page.title': 'Investeringar i tillväxtbolag med balanserad risk',
-    'about.page.paragraph1': 'NordSpan AB är ett nystartat investeringsbolag med en fondliknande struktur. Bolaget emitterar B-aktier till professionella investerare som söker en balanserad exponering mot tillväxtbolag i tidig fas. Genom att investera i en kombination av säkerställda direktlån och equity i väl genomlysta bolag kan risk och avkastning balanseras.',
-    'about.page.paragraph2': 'NordSpan AB har en styrelse som utgör investeringskommitté. Förvaltningen av bolaget inklusive sourcing av investeringsmöjligheter, due diligence och framtagande av investeringsbeslut sker av Cooach Capital Partner AB som är en del av Cooach Group.',
-    'about.page.paragraph3': 'NordSpan AB vänder sig idag till en begränsad krets av investerare som förvärvar nyemitterade B-aktier. A-aktierna ägs av Cooach Capital Partner AB.',
-    'about.page.paragraph4': 'Avsikten är att notera B-aktierna när NordSpan uppnått ett NAV på 500 MSEK eller senast 2029 och i samband med det utveckla NordSpan till ett investeringsbolag för en bred allmänhet.',
+    'about.page.paragraph1': 'Cooach Equity AB är ett nystartat investeringsbolag med en fondliknande struktur. Bolaget emitterar B-aktier till professionella investerare som söker en balanserad exponering mot tillväxtbolag i tidig fas. Genom att investera i en kombination av säkerställda direktlån och equity i väl genomlysta bolag kan risk och avkastning balanseras.',
+    'about.page.paragraph2': 'Cooach Equity AB har en styrelse som utgör investeringskommitté. Förvaltningen av bolaget inklusive sourcing av investeringsmöjligheter, due diligence och framtagande av investeringsbeslut sker av Cooach Capital Partner AB som är en del av Cooach Group.',
+    'about.page.paragraph3': 'Cooach Equity AB vänder sig idag till en begränsad krets av investerare som förvärvar nyemitterade B-aktier. A-aktierna ägs av Cooach Capital Partner AB.',
+    'about.page.paragraph4': 'Avsikten är att notera B-aktierna när Cooach Equity uppnått ett NAV på 500 MSEK eller senast 2029 och i samband med det utveckla Cooach Equity till ett investeringsbolag för en bred allmänhet.',
 
     // Team Page
     'team.title': 'Vårt Team',
-    'team.subtitle': 'Mött teamet bakom NordSpan och Cooach Group som leder våra investeringsbeslut med djup branschexpertis och bevisad track record.',
+    'team.subtitle': 'Mött teamet bakom Cooach Equity och Cooach Group som leder våra investeringsbeslut med djup branschexpertis och bevisad track record.',
     'team.magnus.role': 'VD & Grundare',
     'team.magnus.description': 'Magnus har över 20 års erfarenhet av investeringar och företagsbyggande inom teknologi och tillväxtbolag. Tidigare partner på flera venture capital-fonder.',
     'team.johan.role': 'Investeringschef',
@@ -48,7 +48,7 @@ const translations = {
 
     // Contact Page
     'contact.title': 'Kontakta Oss',
-    'contact.subtitle': 'Vi hjälper gärna till med frågor om investeringar, partnerskap eller allmän information om NordSpan.',
+    'contact.subtitle': 'Vi hjälper gärna till med frågor om investeringar, partnerskap eller allmän information om Cooach Equity.',
     'contact.info.title': 'Kontaktinformation',
     'contact.phone.title': 'Telefon',
     'contact.email.title': 'E-post',
@@ -73,7 +73,7 @@ const translations = {
 
     // Performance Page
     'performance.title': 'Performance & Portfolio',
-    'performance.subtitle': 'NordSpan är ett nytt investeringsbolag som i etableringsfasen gjort mikroinvesteringar i sex svenska start ups. Nedan ser du bolagets målsättningar kommande tre år',
+    'performance.subtitle': 'Cooach Equity är ett nytt investeringsbolag som i etableringsfasen gjort mikroinvesteringar i sex svenska start ups. Nedan ser du bolagets målsättningar kommande tre år',
     'performance.metrics.returns.title': 'Årlig Avkastning',
     'performance.metrics.returns.description': 'Genomsnittlig årlig avkastning',
     'performance.metrics.risk.title': 'Avkastning lån',
@@ -96,7 +96,7 @@ const translations = {
     'performance.highlights.growth.description': 'Strategiska investeringar i högpotentiella bolag.',
 
     // About Section
-    'about.title': 'NordSpan kombinerar säkrade direktlån med',
+    'about.title': 'Cooach Equity kombinerar säkrade direktlån med',
     'about.title.highlight': 'strategiska investeringar',
     'about.title.end': 'i tillväxtföretag',
     'about.description': 'Vår investeringsstrategi skapar kassaflödesbaserade avkastningar samtidigt som vi behåller uppsida från aktieinvesteringar med reducerad risk och professionell excellens.',
@@ -155,7 +155,7 @@ const translations = {
     
     // About/Investment Philosophy (for AboutSection.tsx)
     'about.philosophy.title': 'Investeringsfilosofi',
-    'about.philosophy.desc1': 'NordSpan bygger en långsiktig investeringsportfölj med balanserad riskprofil genom att kombinera kassaflödesgenererande direktlån med övervakade tillväxtinvesteringar.',
+    'about.philosophy.desc1': 'Cooach Equity bygger en långsiktig investeringsportfölj med balanserad riskprofil genom att kombinera kassaflödesgenererande direktlån med övervakade tillväxtinvesteringar.',
     'about.philosophy.desc2': 'Vår strategi ger en målsatt årlig kassaflödesbaserad utdelning om 6%, samtidigt som vi bibehåller uppsidepotential från equity-investeringar.',
     'about.philosophy.desc3': 'Fonden emitterar upp till 100 000 preferensaktier à 100 SEK med kvartalsvis utdelning om 8% per år, varav 6% bedöms kassaflödesbaserad.',
     'about.philosophy.point1': 'Säkerställda direktlån med 12% målavkastning',
@@ -170,16 +170,16 @@ const translations = {
     'about.contact.cta': 'Boka ett möte',
 
     // Investment Page
-    'invest.title': 'Investera med NordSpan',
+    'invest.title': 'Investera med Cooach Equity',
     'invest.subtitle': 'Vi erbjuder exklusiva investeringsmöjligheter genom att upprätthålla daglig kontakt med de företag vi arbetar med. Denna pågående interaktion gör det möjligt för oss att genomföra kontinuerlig due diligence.',
     'invest.feature1.title': 'Kontinuerlig due diligence',
     'invest.feature1.description': 'Vi upprätthåller daglig kontakt med våra portföljföretag, vilket gör det möjligt för oss att genomföra kontinuerlig due diligence och säkerställa grundlig förståelse av deras verksamhet, finansiella hälsa och tillväxtpotential.',
     'invest.feature2.title': 'Djup kunskap om portföljföretag',
     'invest.feature2.description': 'Vi fokuserar våra investeringsmöjligheter på företag vi redan arbetat omfattande med. Detta innebär att vi känner dem väl och kan erbjuda insikter som andra kanske inte har.',
     'invest.feature3.title': 'Hybridkapital',
-    'invest.feature3.description': 'NordSpan kombinerar säkerställda brygglån med deltagande i nyemissioner. Brygglånet utgör ofta första steget och möjliggör för NordSpan att följa bolaget och avvakta med ett definitivt investeringsbeslut till dess att målbolaget bevisat sig.',
+    'invest.feature3.description': 'Cooach Equity kombinerar säkerställda brygglån med deltagande i nyemissioner. Brygglånet utgör ofta första steget och möjliggör för Cooach Equity att följa bolaget och avvakta med ett definitivt investeringsbeslut till dess att målbolaget bevisat sig.',
     'invest.feature4.title': 'Hög tillväxtpotential',
-    'invest.feature4.description': 'Genom att investera i innovativa, tillväxtorienterade företag syftar NordSpan till att generera attraktiv avkastning. Vår strategiska insikt kombinerat med robust finansiellt stöd gör det möjligt för dessa företag att lyckas.',
+    'invest.feature4.description': 'Genom att investera i innovativa, tillväxtorienterade företag syftar Cooach Equity till att generera attraktiv avkastning. Vår strategiska insikt kombinerat med robust finansiellt stöd gör det möjligt för dessa företag att lyckas.',
     'invest.cta.title': 'Håll dig informerad och engagera dig',
     'invest.cta.description': 'Vi inbjuder alla investerare att registrera sig för uppdateringar och information när vi närmar oss lanseringen av vår nya fond.',
     'invest.cta.contact': 'Boka ett möte',
@@ -187,9 +187,9 @@ const translations = {
     
     // Geographic Focus
     'invest.geography.title': 'Varför Norden och Spanien?',
-    'invest.geography.intro': 'NordSpans investeringsfokus följer den geografiska täckning där vår förvaltare och affärspartner, Cooach, är aktiv. Just nu omfattar detta två av Europas mest dynamiska och möjlighetsrika regioner: Norden och Spanien.',
+    'invest.geography.intro': 'Cooach Equitys investeringsfokus följer den geografiska täckning där vår förvaltare och affärspartner, Cooach, är aktiv. Just nu omfattar detta två av Europas mest dynamiska och möjlighetsrika regioner: Norden och Spanien.',
     'invest.geography.nordic.title': 'Norden – stabilitet, transparens och digital spets',
-    'invest.geography.nordic.description': 'De nordiska länderna erbjuder ett unikt investeringsklimat med hög rättssäkerhet, transparens och en mogen företagskultur. Regionen är känd för sitt digitala ledarskap, hållbarhetsfokus och starka innovationskraft. Nordiska bolag har ofta god tillgång till kapital, men det finns ett växande behov av smartare tillväxtkapital i tidiga expansionsfaser – något NordSpan är positionerat att tillgodose.',
+    'invest.geography.nordic.description': 'De nordiska länderna erbjuder ett unikt investeringsklimat med hög rättssäkerhet, transparens och en mogen företagskultur. Regionen är känd för sitt digitala ledarskap, hållbarhetsfokus och starka innovationskraft. Nordiska bolag har ofta god tillgång till kapital, men det finns ett växande behov av smartare tillväxtkapital i tidiga expansionsfaser – något Cooach Equity är positionerat att tillgodose.',
     'invest.geography.spain.title': 'Spanien – tillväxt, transformation och entreprenörsanda',
     'invest.geography.spain.description': 'Samtidigt sker en snabb transformation i södra Europa – särskilt i Spanien, där ett nytt entreprenörsekosystem växer fram med stöd av digitalisering, EU-finansierade satsningar och internationell talang. Regionen Andalusien, inklusive Málaga och Sevilla, har blivit nav för tech-startups, greentech och internationella bolagsetableringar. Med lägre värderingar än norra Europa och stark utvecklingspotential erbjuder spanska bolag en attraktiv riskjusterad investeringsmöjlighet.'
   },
@@ -204,14 +204,14 @@ const translations = {
     // Hero Section
     'hero.title.part1': 'Investments in early-stage',
     'hero.title.part2': 'growth companies',
-    'hero.subtitle': 'Stability meets growth. NordSpan combines direct returns from secured loans with the potential of growth companies – in a fund-like structure optimized for business-driven investors.',
+    'hero.subtitle': 'Stability meets growth. Cooach Equity combines direct returns from secured loans with the potential of growth companies – in a fund-like structure optimized for business-driven investors.',
     'hero.cta.invest': 'I want to invest',
-    'hero.cta.learn': 'This is NordSpan',
+    'hero.cta.learn': 'This is Cooach Equity',
     
     // About Page
-    'about.page.title': 'This is NordSpan',
-    'about.page.paragraph1': 'NordSpan AB is a newly established investment company with a fund-like structure. The company issues B-shares to professional investors seeking balanced exposure to early-stage growth companies. By investing in a combination of secured direct loans and equity in well-analyzed companies, risk and return can be balanced.',
-    'about.page.paragraph2': 'NordSpan AB has a board that constitutes the investment committee. The management of the company including sourcing of investment opportunities, due diligence and development of investment decisions is handled by Cooach Capital Partner AB, which is part of the Cooach Group.',
+    'about.page.title': 'This is Cooach Equity',
+    'about.page.paragraph1': 'Cooach Equity AB is a newly established investment company with a fund-like structure. The company issues B-shares to professional investors seeking balanced exposure to early-stage growth companies. By investing in a combination of secured direct loans and equity in well-analyzed companies, risk and return can be balanced.',
+    'about.page.paragraph2': 'Cooach Equity AB has a board that constitutes the investment committee. The management of the company including sourcing of investment opportunities, due diligence and development of investment decisions is handled by Cooach Capital Partner AB, which is part of the Cooach Group.',
     'about.page.paragraph3': 'NordSpan AB currently targets a limited circle of investors who acquire newly issued B-shares. The A-shares are owned by Cooach Capital Partner AB.',
     'about.page.paragraph4': 'The intention is to list the B-shares when NordSpan has reached a NAV of SEK 500 million or by 2029 at the latest and in connection with that, develop NordSpan into an investment company for the general public.',
 

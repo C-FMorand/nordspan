@@ -74,7 +74,7 @@ export const AboutSection = () => {
                     </div>
                     <div>
                       <div className="font-medium">{t('about.contact.email')}</div>
-                      <div className="text-muted-foreground">info@nordspan.se</div>
+                      <div className="text-muted-foreground">info@cooachequity.se</div>
                     </div>
                   </div>
 
