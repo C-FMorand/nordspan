@@ -20,15 +20,15 @@ const translations = {
     'nav.contact': 'Kontakt',
     
     // Hero Section
-    'hero.title.part1': 'Investeringar i tillväxtbolag',
-    'hero.title.part2': 'i tidig fas',
+    'hero.title.part1': 'Investeringar i',
+    'hero.title.part2': 'tillväxtbolag',
     'hero.subtitle': 'Stabilitet möter tillväxt. Cooach Equity kombinerar direktavkastning från säkerställda lån med potentialen i tillväxtbolag – i en fondliknande struktur optimerad för affärsdrivna investerare.',
     'hero.cta.invest': 'Jag vill investera',
     'hero.cta.learn': 'Detta är Cooach Equity',
     
     // About Page
     'about.page.title': 'Investeringar i tillväxtbolag med balanserad risk',
-    'about.page.paragraph1': 'Cooach Equity AB är ett nystartat investeringsbolag med en fondliknande struktur. Bolaget emitterar B-aktier till professionella investerare som söker en balanserad exponering mot tillväxtbolag i tidig fas. Genom att investera i en kombination av säkerställda direktlån och equity i väl genomlysta bolag kan risk och avkastning balanseras.',
+    'about.page.paragraph1': 'Cooach Equity AB är ett nystartat investeringsbolag med en fondliknande struktur. Bolaget emitterar B-aktier till professionella investerare som söker en balanserad exponering mot tillväxtbolag. Genom att investera i en kombination av säkerställda direktlån och equity i väl genomlysta bolag kan risk och avkastning balanseras.',
     'about.page.paragraph2': 'Cooach Equity AB har en styrelse som utgör investeringskommitté. Förvaltningen av bolaget inklusive sourcing av investeringsmöjligheter, due diligence och framtagande av investeringsbeslut sker av Cooach Capital Partner AB som är en del av Cooach Group.',
     'about.page.paragraph3': 'Cooach Equity AB vänder sig idag till en begränsad krets av investerare som förvärvar nyemitterade B-aktier. A-aktierna ägs av Cooach Capital Partner AB.',
     'about.page.paragraph4': 'Avsikten är att notera B-aktierna när Cooach Equity uppnått ett NAV på 500 MSEK eller senast 2029 och i samband med det utveckla Cooach Equity till ett investeringsbolag för en bred allmänhet.',
@@ -202,7 +202,7 @@ const translations = {
     'nav.contact': 'Contact',
     
     // Hero Section
-    'hero.title.part1': 'Investments in early-stage',
+    'hero.title.part1': 'Investments in',
     'hero.title.part2': 'growth companies',
     'hero.subtitle': 'Stability meets growth. Cooach Equity combines direct returns from secured loans with the potential of growth companies – in a fund-like structure optimized for business-driven investors.',
     'hero.cta.invest': 'I want to invest',
@@ -210,7 +210,7 @@ const translations = {
     
     // About Page
     'about.page.title': 'This is Cooach Equity',
-    'about.page.paragraph1': 'Cooach Equity AB is a newly established investment company with a fund-like structure. The company issues B-shares to professional investors seeking balanced exposure to early-stage growth companies. By investing in a combination of secured direct loans and equity in well-analyzed companies, risk and return can be balanced.',
+    'about.page.paragraph1': 'Cooach Equity AB is a newly established investment company with a fund-like structure. The company issues B-shares to professional investors seeking balanced exposure to growth companies. By investing in a combination of secured direct loans and equity in well-analyzed companies, risk and return can be balanced.',
     'about.page.paragraph2': 'Cooach Equity AB has a board that constitutes the investment committee. The management of the company including sourcing of investment opportunities, due diligence and development of investment decisions is handled by Cooach Capital Partner AB, which is part of the Cooach Group.',
     'about.page.paragraph3': 'NordSpan AB currently targets a limited circle of investors who acquire newly issued B-shares. The A-shares are owned by Cooach Capital Partner AB.',
     'about.page.paragraph4': 'The intention is to list the B-shares when NordSpan has reached a NAV of SEK 500 million or by 2029 at the latest and in connection with that, develop NordSpan into an investment company for the general public.',
@@ -384,15 +384,15 @@ const translations = {
     'nav.contact': 'Contacto',
     
     // Hero Section
-    'hero.title.part1': 'Inversiones en empresas',
-    'hero.title.part2': 'de crecimiento temprano',
+    'hero.title.part1': 'Inversiones en',
+    'hero.title.part2': 'empresas de crecimiento',
     'hero.subtitle': 'La estabilidad se encuentra con el crecimiento. NordSpan combina retornos directos de préstamos garantizados con el potencial de empresas de crecimiento – en una estructura similar a un fondo optimizada para inversores empresariales.',
     'hero.cta.invest': 'Quiero invertir',
     'hero.cta.learn': 'Esto es NordSpan',
     
     // About Page
     'about.page.title': 'Esto es NordSpan',
-    'about.page.paragraph1': 'NordSpan AB es una empresa de inversión recién establecida con una estructura similar a un fondo. La empresa emite acciones B a inversores profesionales que buscan una exposición equilibrada a empresas de crecimiento en etapa temprana. Al invertir en una combinación de préstamos directos garantizados y capital en empresas bien analizadas, se puede equilibrar el riesgo y el rendimiento.',
+    'about.page.paragraph1': 'NordSpan AB es una empresa de inversión recién establecida con una estructura similar a un fondo. La empresa emite acciones B a inversores profesionales que buscan una exposición equilibrada a empresas de crecimiento. Al invertir en una combinación de préstamos directos garantizados y capital en empresas bien analizadas, se puede equilibrar el riesgo y el rendimiento.',
     'about.page.paragraph2': 'NordSpan AB tiene una junta directiva que constituye el comité de inversión. La gestión de la empresa, incluida la búsqueda de oportunidades de inversión, la debida diligencia y el desarrollo de decisiones de inversión, es manejada por Cooach Capital Partner AB, que es parte del Grupo Cooach.',
     'about.page.paragraph3': 'NordSpan AB actualmente se dirige a un círculo limitado de inversores que adquieren acciones B recién emitidas. Las acciones A son propiedad de Cooach Capital Partner AB.',
     'about.page.paragraph4': 'La intención es cotizar las acciones B cuando NordSpan haya alcanzado un NAV de 500 millones de SEK o a más tardar en 2029 y en conexión con eso, desarrollar NordSpan en una empresa de inversión para el público en general.',
