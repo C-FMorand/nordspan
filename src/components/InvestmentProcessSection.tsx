@@ -17,123 +17,51 @@ export const InvestmentProcessSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Direct Loans Section */}
-          <Card className="p-8 border-2 hover:border-primary/20 transition-all duration-300 group">
-            <CardHeader className="text-center pb-8">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
-                <DollarSign className="w-8 h-8 text-primary" />
+        <div className="max-w-4xl mx-auto">
+          <Card className="p-12 border-2 hover:border-primary/20 transition-all duration-300">
+            <CardContent className="text-center space-y-8">
+              <div className="flex justify-center space-x-8 mb-8">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                  <DollarSign className="w-8 h-8 text-primary" />
+                </div>
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                  <TrendingUp className="w-8 h-8 text-primary" />
+                </div>
               </div>
-              <CardTitle className="text-3xl font-semibold mb-2">{t('about.loans.title')}</CardTitle>
-              <p className="text-warm-accent font-semibold text-lg">{t('about.loans.portfolio')}</p>
-            </CardHeader>
-            
-            <CardContent className="space-y-6">
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <h4 className="font-semibold mb-1">{t('process.loans.step1.title')}</h4>
-                    <p className="text-muted-foreground">{t('process.loans.step1.desc')}</p>
-                  </div>
+              
+              <div className="space-y-6">
+                <h3 className="text-3xl font-semibold text-foreground">
+                  {t('process.combined.title')}
+                </h3>
+                
+                <div className="text-lg text-muted-foreground space-y-4 max-w-3xl mx-auto">
+                  <p>{t('process.combined.description1')}</p>
+                  <p>{t('process.combined.description2')}</p>
+                  <p>{t('process.combined.description3')}</p>
                 </div>
                 
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <h4 className="font-semibold mb-1">{t('process.loans.step2.title')}</h4>
-                    <p className="text-muted-foreground">{t('process.loans.step2.desc')}</p>
+                <div className="grid md:grid-cols-2 gap-6 mt-8">
+                  <div className="bg-muted/30 p-6 rounded-lg">
+                    <div className="flex items-center space-x-2 mb-3">
+                      <Shield className="w-5 h-5 text-primary" />
+                      <span className="font-semibold">{t('process.combined.security')}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground">{t('process.combined.security.desc')}</p>
                   </div>
-                </div>
-                
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <h4 className="font-semibold mb-1">{t('process.loans.step3.title')}</h4>
-                    <p className="text-muted-foreground">{t('process.loans.step3.desc')}</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-muted/30 p-4 rounded-lg">
-                <div className="flex items-center space-x-2 mb-2">
-                  <Clock className="w-4 h-4 text-primary" />
-                  <span className="font-semibold">{t('process.loans.timeline')}</span>
-                </div>
-                <p className="text-sm text-muted-foreground">{t('process.loans.timeline.desc')}</p>
-              </div>
-
-              <div className="bg-muted/30 p-4 rounded-lg">
-                <div className="flex items-center space-x-2 mb-2">
-                  <Shield className="w-4 h-4 text-primary" />
-                  <span className="font-semibold">{t('process.loans.risk')}</span>
-                </div>
-                <p className="text-sm text-muted-foreground">{t('process.loans.risk.desc')}</p>
-              </div>
-
-              <Button className="w-full mt-6 group" size="lg">
-                {t('process.loans.cta')}
-                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </CardContent>
-          </Card>
-
-          {/* Equity Investments Section */}
-          <Card className="p-8 border-2 hover:border-primary/20 transition-all duration-300 group">
-            <CardHeader className="text-center pb-8">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
-                <TrendingUp className="w-8 h-8 text-primary" />
-              </div>
-              <CardTitle className="text-3xl font-semibold mb-2">{t('about.equity.title')}</CardTitle>
-              <p className="text-warm-accent font-semibold text-lg">{t('about.equity.portfolio')}</p>
-            </CardHeader>
-            
-            <CardContent className="space-y-6">
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <h4 className="font-semibold mb-1">{t('process.equity.step1.title')}</h4>
-                    <p className="text-muted-foreground">{t('process.equity.step1.desc')}</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <h4 className="font-semibold mb-1">{t('process.equity.step2.title')}</h4>
-                    <p className="text-muted-foreground">{t('process.equity.step2.desc')}</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <div>
-                    <h4 className="font-semibold mb-1">{t('process.equity.step3.title')}</h4>
-                    <p className="text-muted-foreground">{t('process.equity.step3.desc')}</p>
+                  
+                  <div className="bg-muted/30 p-6 rounded-lg">
+                    <div className="flex items-center space-x-2 mb-3">
+                      <Target className="w-5 h-5 text-primary" />
+                      <span className="font-semibold">{t('process.combined.growth')}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground">{t('process.combined.growth.desc')}</p>
                   </div>
                 </div>
               </div>
-
-              <div className="bg-muted/30 p-4 rounded-lg">
-                <div className="flex items-center space-x-2 mb-2">
-                  <Target className="w-4 h-4 text-primary" />
-                  <span className="font-semibold">{t('process.equity.focus')}</span>
-                </div>
-                <p className="text-sm text-muted-foreground">{t('process.equity.focus.desc')}</p>
-              </div>
-
-              <div className="bg-muted/30 p-4 rounded-lg">
-                <div className="flex items-center space-x-2 mb-2">
-                  <Clock className="w-4 h-4 text-primary" />
-                  <span className="font-semibold">{t('process.equity.horizon')}</span>
-                </div>
-                <p className="text-sm text-muted-foreground">{t('process.equity.horizon.desc')}</p>
-              </div>
-
-              <Button className="w-full mt-6 group" size="lg">
-                {t('process.equity.cta')}
-                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              
+              <Button size="lg" className="mt-8 px-8">
+                {t('process.combined.cta')}
+                <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
             </CardContent>
           </Card>
