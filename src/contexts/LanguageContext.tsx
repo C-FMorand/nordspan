@@ -96,7 +96,7 @@ const translations = {
     'performance.highlights.growth.description': 'Strategiska investeringar i högpotentiella bolag.',
 
     // About Section
-    'about.title': 'Cooach Equity kombinerar säkrade direktlån med',
+    'about.title': 'Cooach Equity kombinerar säkrade företagslån med',
     'about.title.highlight': 'strategiska investeringar',
     'about.title.end': 'i tillväxtföretag',
     'about.description': 'Vår investeringsstrategi skapar kassaflödesbaserade avkastningar samtidigt som vi behåller uppsida från aktieinvesteringar med reducerad risk och professionell excellens.',
