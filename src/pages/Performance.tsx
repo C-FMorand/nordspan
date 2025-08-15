@@ -66,7 +66,6 @@ export const Performance = () => {
                     <div className="p-2 bg-primary/10 rounded-lg">
                       <metric.icon className="w-5 h-5 text-primary" />
                     </div>
-                    <span className="text-sm text-green-600 font-medium">{metric.trend}</span>
                   </div>
                   <h3 className="text-2xl font-bold mb-2">{metric.value}</h3>
                   <p className="text-sm font-medium mb-1">{metric.title}</p>
