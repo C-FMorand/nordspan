@@ -264,7 +264,7 @@ const translations = {
 
     // Performance Page
     'performance.title': 'Performance & Portfolio',
-    'performance.subtitle': 'Cooach Equity is a new investment company that in its establishment phase has made micro-investments in six Swedish startups. Below you can see the company\'s objectives for the coming three years.',
+    'performance.subtitle': 'Cooach Equity is a new investment company that in its establishment phase has made micro-investments in six Swedish startups. Below you can see the company\'s objectives for 2026-2029.',
     'performance.metrics.returns.title': 'Annual Returns',
     'performance.metrics.returns.description': 'Average annual return',
     'performance.metrics.risk.title': 'Loan Returns',
