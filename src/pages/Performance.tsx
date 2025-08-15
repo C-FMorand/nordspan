@@ -25,14 +25,14 @@ export const Performance = () => {
     {
       icon: Target,
       title: t('performance.metrics.target.title'),
-      value: "94%",
+      value: "500 MSEK",
       description: t('performance.metrics.target.description'),
       trend: "+8%"
     },
     {
       icon: DollarSign,
       title: t('performance.metrics.aum.title'),
-      value: "125M SEK",
+      value: "2029",
       description: t('performance.metrics.aum.description'),
       trend: "+15M"
     }
