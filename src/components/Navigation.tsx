@@ -55,7 +55,7 @@ export const Navigation = () => {
             {t('nav.team')}
           </Link>
           <Link to="/performance" className="text-white hover:text-warm-accent transition-colors">
-            Performance
+            Targets
           </Link>
           
           {/* Language Switcher */}
@@ -116,7 +116,7 @@ export const Navigation = () => {
               className="text-white hover:text-warm-accent transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
-              Performance
+              Targets
             </Link>
             
             {/* Mobile Language Switcher */}

@@ -72,7 +72,7 @@ const translations = {
     'contact.form.submit': 'Skicka meddelande',
 
     // Performance Page
-    'performance.title': 'Performance & Portfolio',
+    'performance.title': 'Targets & Portfolio',
     'performance.subtitle': 'Cooach Equity är ett nytt investeringsbolag som i etableringsfasen gjort mikroinvesteringar i sex svenska start ups. Nedan ser du bolagets målsättningar kommande tre år',
     'performance.metrics.returns.title': 'Årlig Avkastning',
     'performance.metrics.returns.description': 'Genomsnittlig årlig avkastning',
@@ -263,7 +263,7 @@ const translations = {
     'contact.form.submit': 'Send message',
 
     // Performance Page
-    'performance.title': 'Performance & Portfolio',
+    'performance.title': 'Targets & Portfolio',
     'performance.subtitle': 'Cooach Equity is a new investment company that in its establishment phase has made micro-investments in six Swedish startups. Below you can see the company\'s objectives for 2026-2029.',
     'performance.metrics.returns.title': 'Annual Returns',
     'performance.metrics.returns.description': 'Average annual return',
