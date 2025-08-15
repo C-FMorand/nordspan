@@ -83,7 +83,7 @@ const translations = {
     'performance.metrics.aum.title': 'Förvaltat Kapital',
     'performance.metrics.aum.description': 'Assets under management',
     'performance.portfolio.title': 'Portföljfördelning',
-    'performance.portfolio.loans': 'Direktlån',
+    'performance.portfolio.loans': 'Företagslån',
     'performance.portfolio.equity': 'Aktieinvesteringar',
     'performance.historical.title': 'Historisk Utveckling',
     'performance.historical.placeholder': 'Prestandadiagram kommer att visas här',
