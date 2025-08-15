@@ -18,7 +18,7 @@ export const Performance = () => {
     {
       icon: Shield,
       title: t('performance.metrics.risk.title'),
-      value: "16%",
+      value: "50%",
       description: t('performance.metrics.risk.description'),
       trend: "-0.3%"
     },
