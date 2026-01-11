@@ -11,36 +11,37 @@ export const Performance = () => {
     {
       icon: TrendingUp,
       title: t('performance.metrics.returns.title'),
-      value: "30%",
+      value: "25%",
       description: t('performance.metrics.returns.description'),
-      trend: "+2.1%"
+      trend: "p.a."
     },
     {
       icon: Shield,
       title: t('performance.metrics.risk.title'),
-      value: "50%",
+      value: "4%",
       description: t('performance.metrics.risk.description'),
-      trend: "-0.3%"
+      trend: "p.a."
     },
     {
       icon: Target,
       title: t('performance.metrics.target.title'),
       value: "500 MSEK",
       description: t('performance.metrics.target.description'),
-      trend: "+8%"
+      trend: ""
     },
     {
       icon: DollarSign,
       title: t('performance.metrics.aum.title'),
-      value: "2029",
+      value: "H1 2030",
       description: t('performance.metrics.aum.description'),
-      trend: "+15M"
+      trend: ""
     }
   ];
 
   const portfolioBreakdown = [
-    { category: t('performance.portfolio.loans'), percentage: 52, value: "65M SEK", color: "bg-primary" },
-    { category: t('performance.portfolio.equity'), percentage: 48, value: "60M SEK", color: "bg-accent" }
+    { category: t('performance.portfolio.loans'), percentage: 45, value: "~45%", color: "bg-primary" },
+    { category: t('performance.portfolio.equity'), percentage: 30, value: "~30%", color: "bg-accent" },
+    { category: t('performance.portfolio.projects'), percentage: 25, value: "~25%", color: "bg-warm-accent" }
   ];
 
   return (
